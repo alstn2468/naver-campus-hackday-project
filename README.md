@@ -64,7 +64,7 @@
 - pip
 - django
 - django rest framework
-- oAuth 2.0
+- django-rest-framework-social-oauth2
 
 #### Front-End
 
