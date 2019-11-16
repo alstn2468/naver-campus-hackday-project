@@ -20,8 +20,6 @@
 
 ### To Do
 
-#### Back-End
-
 - [ ] 모델 구조 설계
 - [ ] 설계된 모델기반 모델 생성
 - [ ] 유저 등록 및 로그인 기능 (`Github OAuth` 이용)
@@ -36,10 +34,6 @@
 - [ ] 그룹 구성원 년간 커밋 확인 기능
 - [ ] 그룹 스터디 종료 기능
 - [ ] 그룹 스터디 종료시 평가 기능
-
-#### Front-End
-
-- [ ] local storage를 활용한 로그인 기능
 - [ ] 메인 페이지 구성
 - [ ] 개인 사용자 정보 페이지 구성
 - [ ] 그룹 생성 페이지 구성
@@ -57,19 +51,6 @@
   - [ ] 스터디 수정 컴포넌트 구성
 
 ### Dependencies
-
-#### Back-End
-
 - Python
 - pip
 - django
-- django rest framework
-- django-rest-framework-social-oauth2
-
-#### Front-End
-
-- Node.js
-- npm
-- React
-- redux
-- react-redux

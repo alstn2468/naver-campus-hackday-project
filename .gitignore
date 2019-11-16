@@ -3,11 +3,13 @@
 # Edit at https://www.gitignore.io/?templates=react,macos,django
 
 ### Django ###
+secrets.json
 *.log
 *.pot
 *.pyc
 __pycache__/
-local_settings.py
+local.py
+base.py
 db.sqlite3
 db.sqlite3-journal
 media
@@ -164,5 +166,3 @@ thumb
 sketch
 
 # End of https://www.gitignore.io/api/react,macos,django
-
-config.js
