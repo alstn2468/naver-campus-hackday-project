@@ -2,7 +2,13 @@
 
 {% block content %}
   <h2>Homepage</h2>
+  {% if user.is_authenticated %}
   <p>Hello {{ user.username }}!</p>
+  <p>{{ user.extradata }}</p>
+  {% else %}
+  <p>Please Login with Github</p>
+  {% endif %}
+
   {% if messages %}
   <ul class="messages">
       {% for message in messages %}
@@ -13,6 +19,23 @@
       {% endfor %}
   </ul>
   {% endif %}
-  <a href={% url 'settings' %}>Github Auth Setting Button</a>
-  <a href={% url 'password' %}>Password Setting Button</a>
+
+  {% if user_data %}
+  <ul>
+    {% for key, val in user_data.items %}
+      {% if key == "avatar_url" %}
+      <li>Profile Avatar</li>
+      <img src={{ val }} alt="user_avatar" width="200" height="200" />
+      {% else %}
+      <li>{{ key }} : {{ val }}</li>
+
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  <a href={% url 'settings' %}>Github Auth Setting Button</a><br>
+  <a href={% url 'password' %}>Password Setting Button</a><br>
+  <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
+  <a href={% url 'logout' %}>Logout</a><br>
 {% endblock %}
