@@ -13,19 +13,12 @@ def home(request):
 
     if user:
         try:
+            GIT_API_URL = conf_settings.GIT_API_URL
             suffix = "?client_id=" + conf_settings.SOCIAL_AUTH_GITHUB_KEY + \
                 "&client_secret=" + conf_settings.SOCIAL_AUTH_GITHUB_SECRET
 
-            user_repos = requests.get(
-                'https://api.github.com/users/' + user.username + '/repos' + suffix, {
-                    "type": "all",
-                    "sort": "updated"
-                }).json()
-
             user_data = requests.get(
-                "https://api.github.com/users/" + user.username + suffix).json()
-
-            print(user_data)
+                GIT_API_URL + "/users/" + user.username + suffix).json()
 
             user_data = {
                 "avatar_url": user_data["avatar_url"],
@@ -38,6 +31,16 @@ def home(request):
                 "following": user_data["following"]
             }
 
+            # Get all public repo according to public_repos_count
+            user_repos = requests.get(
+                GIT_API_URL + '/users/' + user.username + '/repos' + suffix
+                + '&per_page=' + str(user_data["public_repos_count"]), {
+                    "type": "all",
+                    "sort": "updated"
+                }).json()
+
+            user_repos = [repos["full_name"] for repos in user_repos]
+
         except Exception as e:
             print(e)
             user_data = {
@@ -45,7 +48,8 @@ def home(request):
             }
 
     return render(request, 'main/home.html', {
-        "user_data": user_data
+        "user_data": user_data,
+        "user_repos": user_repos
     })
 
 

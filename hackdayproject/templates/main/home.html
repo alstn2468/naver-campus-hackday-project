@@ -1,41 +1,52 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h2>Homepage</h2>
-  {% if user.is_authenticated %}
-  <p>Hello {{ user.username }}!</p>
-  <p>{{ user.extradata }}</p>
-  {% else %}
-  <p>Please Login with Github</p>
-  {% endif %}
+	<h2>Homepage</h2>
+	{% if user.is_authenticated %}
+		<p>Hello {{ user.username }}!</p>
+		<p>{{ user.extradata }}</p>
+	{% else %}
+		<p>Please Login with Github</p>
+	{% endif %}
 
-  {% if messages %}
-  <ul class="messages">
-      {% for message in messages %}
-      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
-          {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
-          {{ message }}
-      </li>
-      {% endfor %}
-  </ul>
-  {% endif %}
+	{% if messages %}
+		<ul class="messages">
+			{% for message in messages %}
+				<li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+			{% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+				{{ message }}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
 
-  {% if user_data %}
-  <ul>
-    {% for key, val in user_data.items %}
-      {% if key == "avatar_url" %}
-      <li>Profile Avatar</li>
-      <img src={{ val }} alt="user_avatar" width="200" height="200" />
-      {% else %}
-      <li>{{ key }} : {{ val }}</li>
+	{% if user_data %}
+		<ul>
+		{% for key, val in user_data.items %}
+			{% if key == "avatar_url" %}
+				<li>Profile Avatar</li>
+				<img src={{ val }} alt="user_avatar" width="200" height="200" />
+			{% else %}
+				<li>{{ key }} : {{ val }}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>Failed to get Github account information.</p>
+	{% endif %}
 
-      {% endif %}
-    {% endfor %}
-  </ul>
-  {% endif %}
+	{% if user_repos %}
+	<ul>
+		{% for repo in user_repos %}	
+			<li>{{ repo }}</li>
+		{% endfor %}
+	</ul>
+	{% else %}
+		<p>Failed to get {{ user.username }}'s repository list.</p>
+	{% endif %}
 
-  <a href={% url 'settings' %}>Github Auth Setting Button</a><br>
-  <a href={% url 'password' %}>Password Setting Button</a><br>
-  <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
-  <a href={% url 'logout' %}>Logout</a><br>
+	<a href={% url 'settings' %}>Github Auth Setting Button</a><br>
+	<a href={% url 'password' %}>Password Setting Button</a><br>
+	<a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
+	<a href={% url 'logout' %}>Logout</a><br>
 {% endblock %}
