@@ -1,0 +1,72 @@
+[
+    {
+        "login": "SoonchunhyangUniversity",
+        "id": 36590811,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM2NTkwODEx",
+        "url": "https://api.github.com/orgs/SoonchunhyangUniversity",
+        "repos_url": "https://api.github.com/orgs/SoonchunhyangUniversity/repos",
+        "events_url": "https://api.github.com/orgs/SoonchunhyangUniversity/events",
+        "hooks_url": "https://api.github.com/orgs/SoonchunhyangUniversity/hooks",
+        "issues_url": "https://api.github.com/orgs/SoonchunhyangUniversity/issues",
+        "members_url": "https://api.github.com/orgs/SoonchunhyangUniversity/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/SoonchunhyangUniversity/public_members{/member}",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/36590811?v=4",
+        "description": ""
+    },
+    {
+        "login": "Help-Us",
+        "id": 39236713,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM5MjM2NzEz",
+        "url": "https://api.github.com/orgs/Help-Us",
+        "repos_url": "https://api.github.com/orgs/Help-Us/repos",
+        "events_url": "https://api.github.com/orgs/Help-Us/events",
+        "hooks_url": "https://api.github.com/orgs/Help-Us/hooks",
+        "issues_url": "https://api.github.com/orgs/Help-Us/issues",
+        "members_url": "https://api.github.com/orgs/Help-Us/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/Help-Us/public_members{/member}",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/39236713?v=4",
+        "description": "Soonchunhyang University Project Team"
+    },
+    {
+        "login": "bigming2018",
+        "id": 40535935,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQwNTM1OTM1",
+        "url": "https://api.github.com/orgs/bigming2018",
+        "repos_url": "https://api.github.com/orgs/bigming2018/repos",
+        "events_url": "https://api.github.com/orgs/bigming2018/events",
+        "hooks_url": "https://api.github.com/orgs/bigming2018/hooks",
+        "issues_url": "https://api.github.com/orgs/bigming2018/issues",
+        "members_url": "https://api.github.com/orgs/bigming2018/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/bigming2018/public_members{/member}",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/40535935?v=4",
+        "description": ""
+    },
+    {
+        "login": "LikeLionSCH",
+        "id": 46446169,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2NDQ2MTY5",
+        "url": "https://api.github.com/orgs/LikeLionSCH",
+        "repos_url": "https://api.github.com/orgs/LikeLionSCH/repos",
+        "events_url": "https://api.github.com/orgs/LikeLionSCH/events",
+        "hooks_url": "https://api.github.com/orgs/LikeLionSCH/hooks",
+        "issues_url": "https://api.github.com/orgs/LikeLionSCH/issues",
+        "members_url": "https://api.github.com/orgs/LikeLionSCH/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/LikeLionSCH/public_members{/member}",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/46446169?v=4",
+        "description": "Like Lion at Soonchunhyang University"
+    },
+    {
+        "login": "bts-break-through-sw-maestro",
+        "id": 51088236,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjUxMDg4MjM2",
+        "url": "https://api.github.com/orgs/bts-break-through-sw-maestro",
+        "repos_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/repos",
+        "events_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/events",
+        "hooks_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/hooks",
+        "issues_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/issues",
+        "members_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/bts-break-through-sw-maestro/public_members{/member}",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/51088236?v=4",
+        "description": "Software Maestro 10th Course Team"
+    }
+]

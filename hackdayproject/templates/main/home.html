@@ -35,14 +35,23 @@
 		<p>{{ user_data }}</p>
 	{% endif %}
 
-	{% if user_repos|get_type == "list" %}
+    {% if orgs_data|get_type == "list" %}
+        <ul>
+        {% for orgs in orgs_data %}
+            <li>{{ orgs }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>{{ orgs_data }}</p>
+    {% endif %}
+	{% if user_repo|get_type == "list" %}
 	<ul>
-		{% for repo in user_repos %}	
+		{% for repo in user_repo %}	
 			<li>{{ repo }}</li>
 		{% endfor %}
 	</ul>
 	{% else %}
-		<p>{{ user_repos }}</p>
+		<p>{{ user_repo }}</p>
 	{% endif %}
 	<a href={% url 'settings' %}>Github Auth Setting Button</a><br>
 	<a href={% url 'password' %}>Password Setting Button</a><br>

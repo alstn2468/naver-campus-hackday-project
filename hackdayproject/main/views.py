@@ -5,27 +5,41 @@ from django.contrib.auth import update_session_auth_hash
 from django.contrib import messages
 from django.shortcuts import render, redirect
 from social_django.models import UserSocialAuth
-from hackdayproject.utils.github_api \
-    import get_user_data, get_user_repos
+from natsort import natsorted, ns
+from hackdayproject.utils.github_api import *
 
 
 def home(request):
     user = request.user
 
     if user:
-        user_data = get_user_data(user.username)
+        username = user.username
+        user_data = get_user_data(username)
 
         if type(user_data) is dict:
-            user_repos = get_user_repos(
-                user.username, str(user_data["public_repos_count"])
+            user_repo = get_user_repos(
+                username, str(user_data["public_repos_count"])
             )
+            orgs_data = get_user_orgs(username)
+
+            orgs_repo_data = []
+
+            for orgs in orgs_data:
+                orgs_repo_temp = get_orgs_repos(orgs)
+
+                if type(orgs_repo_temp) is list:
+                    orgs_repo_data.extend(orgs_repo_temp)
+
+            user_repo += orgs_repo_data
+            user_repo = natsorted(list(set(user_repo)), alg=ns.IGNORECASE)
 
         else:
-            user_repos = "Can't get user repository data."
+            user_repo = "Can't get user repository data."
 
     return render(request, 'main/home.html', {
         "user_data": user_data,
-        "user_repos": user_repos,
+        "user_repo": user_repo,
+        "orgs_data": orgs_data,
     })
 
 

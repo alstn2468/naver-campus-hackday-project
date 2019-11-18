@@ -55,3 +55,4 @@
 - pip
 - django
 - social-auth-app-django
+- natsort
