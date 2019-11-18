@@ -15,7 +15,7 @@ def home(request):
     if user:
         user_data = get_user_data(user.username)
 
-        if "dict" == type(user_data):
+        if type(user_data) is dict:
             user_repos = get_user_repos(
                 user.username, str(user_data["public_repos_count"])
             )
