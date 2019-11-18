@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load main_tags %}
 {% block content %}
 	<h2>Homepage</h2>
 	{% if user.is_authenticated %}
@@ -20,7 +20,7 @@
 		</ul>
 	{% endif %}
 
-	{% if user_data %}
+	{% if user_data|get_type == "dict" %}
 		<ul>
 		{% for key, val in user_data.items %}
 			{% if key == "avatar_url" %}
@@ -32,19 +32,18 @@
 		{% endfor %}
 		</ul>
 	{% else %}
-		<p>Failed to get Github account information.</p>
+		<p>{{ user_data }}</p>
 	{% endif %}
 
-	{% if user_repos %}
+	{% if user_repos|get_type == "list" %}
 	<ul>
 		{% for repo in user_repos %}	
 			<li>{{ repo }}</li>
 		{% endfor %}
 	</ul>
 	{% else %}
-		<p>Failed to get {{ user.username }}'s repository list.</p>
+		<p>{{ user_repos }}</p>
 	{% endif %}
-
 	<a href={% url 'settings' %}>Github Auth Setting Button</a><br>
 	<a href={% url 'password' %}>Password Setting Button</a><br>
 	<a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>

@@ -1,0 +1,464 @@
+[
+    {
+        "id": "10880755970",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4284348824,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "6ee7b8e911d185b17d5637156b1709bba3210940",
+            "before": "86cf24907ce9a710b9a93934b6d76f68b3a25d8b",
+            "commits": [
+                {
+                    "sha": "6ee7b8e911d185b17d5637156b1709bba3210940",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Change all codes indent",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/6ee7b8e911d185b17d5637156b1709bba3210940"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-17T13:25:46Z"
+    },
+    {
+        "id": "10880611422",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4284256635,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "86cf24907ce9a710b9a93934b6d76f68b3a25d8b",
+            "before": "319dc68308a817c256b416d6dce4b47d910e317f",
+            "commits": [
+                {
+                    "sha": "86cf24907ce9a710b9a93934b6d76f68b3a25d8b",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Increasing the unauthenticated rate limit for OAuth applications using client_id & client_secret",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/86cf24907ce9a710b9a93934b6d76f68b3a25d8b"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-17T12:25:26Z"
+    },
+    {
+        "id": "10880561734",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4284225291,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "319dc68308a817c256b416d6dce4b47d910e317f",
+            "before": "1be3572c4dcdb908556bb4251b6bf3e41191b4ac",
+            "commits": [
+                {
+                    "sha": "319dc68308a817c256b416d6dce4b47d910e317f",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Fix README.md",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/319dc68308a817c256b416d6dce4b47d910e317f"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-17T12:03:41Z"
+    },
+    {
+        "id": "10880558518",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4284223209,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "1be3572c4dcdb908556bb4251b6bf3e41191b4ac",
+            "before": "28d6496a87ac7ce52af8cff287c08dc2f7978db6",
+            "commits": [
+                {
+                    "sha": "1be3572c4dcdb908556bb4251b6bf3e41191b4ac",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Connect github oauth and get user info",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/1be3572c4dcdb908556bb4251b6bf3e41191b4ac"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-17T12:02:22Z"
+    },
+    {
+        "id": "10878134538",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4282635460,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "28d6496a87ac7ce52af8cff287c08dc2f7978db6",
+            "before": "b8fa07cbd793f3ca20ef56e4aa480e479e58b992",
+            "commits": [
+                {
+                    "sha": "28d6496a87ac7ce52af8cff287c08dc2f7978db6",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Seperate settings and connect github oauth",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/28d6496a87ac7ce52af8cff287c08dc2f7978db6"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-16T15:35:18Z"
+    },
+    {
+        "id": "10872357898",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4279433945,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "b8fa07cbd793f3ca20ef56e4aa480e479e58b992",
+            "before": "757a38effc057adeeb2b8d4ae6cd83f096e3bac7",
+            "commits": [
+                {
+                    "sha": "b8fa07cbd793f3ca20ef56e4aa480e479e58b992",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Create frontend react application and set base",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/b8fa07cbd793f3ca20ef56e4aa480e479e58b992"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-15T14:26:57Z"
+    },
+    {
+        "id": "10868780507",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4277539934,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "757a38effc057adeeb2b8d4ae6cd83f096e3bac7",
+            "before": "75368a1139f2ccd73f75245c8683a9f60867fa10",
+            "commits": [
+                {
+                    "sha": "757a38effc057adeeb2b8d4ae6cd83f096e3bac7",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Continue setting drf oauth",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/757a38effc057adeeb2b8d4ae6cd83f096e3bac7"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-15T05:13:59Z"
+    },
+    {
+        "id": "10868741724",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 35517199,
+            "login": "CaesiumY",
+            "display_login": "CaesiumY",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/CaesiumY",
+            "avatar_url": "https://avatars.githubusercontent.com/u/35517199?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": { "action": "started" },
+        "public": True,
+        "created_at": "2019-11-15T05:03:54Z"
+    },
+    {
+        "id": "10868715366",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4277504748,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "75368a1139f2ccd73f75245c8683a9f60867fa10",
+            "before": "5b02136baf276c3ff5d12dd84f2a1ee1b969fe75",
+            "commits": [
+                {
+                    "sha": "75368a1139f2ccd73f75245c8683a9f60867fa10",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Fix README.md backend dependencies, Fix gitignore",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/75368a1139f2ccd73f75245c8683a9f60867fa10"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-15T04:57:18Z"
+    },
+    {
+        "id": "10868713612",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4277503765,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5b02136baf276c3ff5d12dd84f2a1ee1b969fe75",
+            "before": "91921a166824d7b0bdf8653ac515d7240fdf459b",
+            "commits": [
+                {
+                    "sha": "5b02136baf276c3ff5d12dd84f2a1ee1b969fe75",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Create django rest framework backend project",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/5b02136baf276c3ff5d12dd84f2a1ee1b969fe75"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-15T04:56:51Z"
+    },
+    {
+        "id": "10868684318",
+        "type": "PushEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "push_id": 4277487620,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "91921a166824d7b0bdf8653ac515d7240fdf459b",
+            "before": "c431c5861f5b1b8922c218858d2e798afc19ec15",
+            "commits": [
+                {
+                    "sha": "91921a166824d7b0bdf8653ac515d7240fdf459b",
+                    "author": {
+                        "email": "alstn2468_@naver.com",
+                        "name": "김민수"
+                    },
+                    "message": "Fix README.md, add to do list, dependencies",
+                    "distinct": True,
+                    "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project/commits/91921a166824d7b0bdf8653ac515d7240fdf459b"
+                }
+            ]
+        },
+        "public": True,
+        "created_at": "2019-11-15T04:49:10Z"
+    },
+    {
+        "id": "10868631634",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "✅NAVER CAMPUS HACKDAY Group Daily Commit Project👨\u200d💻",
+            "pusher_type": "user"
+        },
+        "public": True,
+        "created_at": "2019-11-15T04:35:09Z"
+    },
+    {
+        "id": "10868631487",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 30997311,
+            "login": "alstn2468",
+            "display_login": "alstn2468",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "avatar_url": "https://avatars.githubusercontent.com/u/30997311?"
+        },
+        "repo": {
+            "id": 221844725,
+            "name": "alstn2468/Naver_Campus_Hackday_Project",
+            "url": "https://api.github.com/repos/alstn2468/Naver_Campus_Hackday_Project"
+        },
+        "payload": {
+            "ref": None,
+            "ref_type": "repository",
+            "master_branch": "master",
+            "description": "✅NAVER CAMPUS HACKDAY Group Daily Commit Project👨\u200d💻",
+            "pusher_type": "user"
+        },
+        "public": True,
+        "created_at": "2019-11-15T04:35:07Z"
+    }
+]
