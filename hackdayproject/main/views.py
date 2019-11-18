@@ -17,15 +17,13 @@ def home(request):
         user_data = get_user_data(username)
 
         if type(user_data) is dict:
-            user_repo = get_user_repos(
-                username, str(user_data["public_repos_count"])
-            )
+            user_repo = get_user_repo(username)
             orgs_data = get_user_orgs(username)
 
             orgs_repo_data = []
 
             for orgs in orgs_data:
-                orgs_repo_temp = get_orgs_repos(orgs)
+                orgs_repo_temp = get_orgs_repo(orgs)
 
                 if type(orgs_repo_temp) is list:
                     orgs_repo_data.extend(orgs_repo_temp)

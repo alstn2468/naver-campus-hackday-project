@@ -3,6 +3,15 @@ import requests
 
 
 def get_user_data(username):
+    '''Github 사용자 정보 반환
+
+    Args:
+        username : Github으로 로그인한 사용자 이름
+
+    Returns:
+        값을 가져오는데 성공했을 경우 Dict
+        값을 가져오는데 실패했을 경우 Str
+    '''
     try:
         user_data = requests.get(
             conf.GIT_API_URL + "/users/" + username + conf.SUFFIX
@@ -26,6 +35,15 @@ def get_user_data(username):
 
 
 def get_user_orgs(username):
+    '''Github 사용자의 조직 정보 반환
+
+    Args:
+        username : Github으로 로그인한 사용자 이름
+
+    Returns:
+        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 실패했을 경우 Str
+    '''
     try:
         orgs_data = requests.get(
             conf.GIT_API_URL + "/users/" + username + "/orgs" + conf.SUFFIX
@@ -39,7 +57,16 @@ def get_user_orgs(username):
     return orgs_data
 
 
-def get_orgs_repos(orgs_name):
+def get_orgs_repo(orgs_name):
+    '''Github 조직 레파지토리 정보 반환
+
+    Args:
+        orgs_name : Github 조직 이름
+
+    Returns:
+        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 실패했을 경우 Str
+    '''
     try:
         orgs_repo_data = requests.get(
             conf.GIT_API_URL + "/orgs/" + orgs_name + "/repos" + conf.SUFFIX
@@ -53,11 +80,19 @@ def get_orgs_repos(orgs_name):
     return orgs_repo_data
 
 
-def get_user_repos(username, repo_count):
+def get_user_repo(username):
+    '''Github 사용자 레파지토리 정보 반환
+
+    Args:
+        username : Github으로 로그인한 사용자 이름
+
+    Returns:
+        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 실패했을 경우 Str
+    '''
     try:
         user_repo = requests.get(
-            conf.GIT_API_URL + '/users/' + username + '/repos' + conf.SUFFIX
-            + '&per_page=' + repo_count, {
+            conf.GIT_API_URL + '/users/' + username + '/repos' + conf.SUFFIX, {
                 "type": "all",
                 "sort": "updated"
             })
