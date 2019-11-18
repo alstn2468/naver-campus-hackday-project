@@ -60,9 +60,25 @@ def get_user_repos(username, repo_count):
             + '&per_page=' + repo_count, {
                 "type": "all",
                 "sort": "updated"
-            }).json()
-
+            })
+        header_link = user_repo.headers["Link"]
+        user_repo = user_repo.json()
         user_repo = [repos["full_name"] for repos in user_repo]
+
+        while 'rel="next"' in header_link:
+            # Get next page link using split and slicing
+            next_link = header_link.split('rel="next"')[0]
+            next_link = next_link[1:len(next_link) - 3]
+
+            # Request user repos using next_link
+            next_user_repo = requests.get(next_link)
+            # Get headers Link data
+            header_link = next_user_repo.headers["Link"]
+            # Response data convert to dict
+            next_user_repo = next_user_repo.json()
+            # Append user_repo data
+            user_repo += [repos["full_name"] for repos in next_user_repo]
+
     except Exception as e:
         print(e)
         user_repo = "Can't get user repository data."
