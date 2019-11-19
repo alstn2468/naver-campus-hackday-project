@@ -124,49 +124,6 @@ def get_user_repo(username):
     return user_repo
 
 
-def get_user_repo_event(repo_full_name):
-    '''Github  레파지토리 이벤트 정보 반환
-    정보가 다 가져와 지는 것이 아니라 사용 불가능 예상
-
-    Args:
-        repo_full_name : user/repo 형식의 Str
-
-    Returns:
-        값을 가져오는데 성공했을 경우 List
-        값을 가져오는데 실패했을 경우 Str
-    '''
-    try:
-        user_repo_event = requests.get(
-            conf.GIT_API_URL + "/repos/" + repo_full_name + "/events" + conf.SUFFIX
-        )
-
-        # GET /repos/:user/:repo/events
-        # alstn2468.github.io Repository 기준 74개 Response
-        # 2019/11/19 기준 2019/08/30까지의 이벤트 반환
-        header_link = user_repo_event.headers
-        user_repo_event = user_repo_event.json()
-        user_repo_event = [c["type"] for c in user_repo_event]
-
-        if 'Link' in header_link.keys():
-            header_link = header_link["Link"]
-
-            while 'rel="next"' in header_link:
-                next_link = header_link.split('rel="next"')[0]
-                next_link = next_link[1:len(next_link) - 3]
-
-                next_user_repo_event = requests.get(next_link)
-                header_link = next_user_repo_event.headers["Link"]
-                next_user_repo_event = next_user_repo_event.json()
-
-                user_repo_event += [c["type"] for c in next_user_repo_event]
-
-    except Exception as e:
-        print(e)
-        user_repo_event = "Can't get " + repo_full_name + " events"
-
-    return user_repo_event
-
-
 def get_user_repo_commit(repo_full_name):
     '''Github  레파지토리 커밋 정보 반환
 
