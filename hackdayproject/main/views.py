@@ -30,7 +30,6 @@ def home(request):
 
             user_repo += orgs_repo_data
             user_repo = natsorted(list(set(user_repo)), alg=ns.IGNORECASE)
-
         else:
             user_repo = "Can't get user repository data."
 

@@ -96,26 +96,112 @@ def get_user_repo(username):
                 "type": "all",
                 "sort": "updated"
             })
-        header_link = user_repo.headers["Link"]
+        header_link = user_repo.headers
         user_repo = user_repo.json()
         user_repo = [repos["full_name"] for repos in user_repo]
 
-        while 'rel="next"' in header_link:
-            # Get next page link using split and slicing
-            next_link = header_link.split('rel="next"')[0]
-            next_link = next_link[1:len(next_link) - 3]
+        if 'Link' in header_link.keys():
+            header_link = header_link["Link"]
 
-            # Request user repos using next_link
-            next_user_repo = requests.get(next_link)
-            # Get headers Link data
-            header_link = next_user_repo.headers["Link"]
-            # Response data convert to dict
-            next_user_repo = next_user_repo.json()
-            # Append user_repo data
-            user_repo += [repos["full_name"] for repos in next_user_repo]
+            while 'rel="next"' in header_link:
+                # Get next page link using split and slicing
+                next_link = header_link.split('rel="next"')[0]
+                next_link = next_link[1:len(next_link) - 3]
+
+                # Request user repos using next_link
+                next_user_repo = requests.get(next_link)
+                # Get headers Link data
+                header_link = next_user_repo.headers["Link"]
+                # Response data convert to dict
+                next_user_repo = next_user_repo.json()
+                # Append user_repo data
+                user_repo += [repos["full_name"] for repos in next_user_repo]
 
     except Exception as e:
         print(e)
         user_repo = "Can't get user repository data."
 
     return user_repo
+
+
+def get_user_repo_event(repo_full_name):
+    '''Github  레파지토리 이벤트 정보 반환
+    정보가 다 가져와 지는 것이 아니라 사용 불가능 예상
+
+    Args:
+        repo_full_name : user/repo 형식의 Str
+
+    Returns:
+        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 실패했을 경우 Str
+    '''
+    try:
+        user_repo_event = requests.get(
+            conf.GIT_API_URL + "/repos/" + repo_full_name + "/events" + conf.SUFFIX
+        )
+
+        # GET /repos/:user/:repo/events
+        # alstn2468.github.io Repository 기준 74개 Response
+        # 2019/11/19 기준 2019/08/30까지의 이벤트 반환
+        header_link = user_repo_event.headers
+        user_repo_event = user_repo_event.json()
+        user_repo_event = [c["type"] for c in user_repo_event]
+
+        if 'Link' in header_link.keys():
+            header_link = header_link["Link"]
+
+            while 'rel="next"' in header_link:
+                next_link = header_link.split('rel="next"')[0]
+                next_link = next_link[1:len(next_link) - 3]
+
+                next_user_repo_event = requests.get(next_link)
+                header_link = next_user_repo_event.headers["Link"]
+                next_user_repo_event = next_user_repo_event.json()
+
+                user_repo_event += [c["type"] for c in next_user_repo_event]
+
+    except Exception as e:
+        print(e)
+        user_repo_event = "Can't get " + repo_full_name + " events"
+
+    return user_repo_event
+
+
+def get_user_repo_commit(repo_full_name):
+    '''Github  레파지토리 커밋 정보 반환
+
+    Args:
+        repo_full_name : user/repo 형식의 Str
+
+    Returns:
+        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 실패했을 경우 Str
+    '''
+    try:
+        user_repo_commit = requests.get(
+            conf.GIT_API_URL + "/repos/" + repo_full_name + "/commits" + conf.SUFFIX
+        )
+        # GET /repos/:user/:repo/:commits
+        # alstn2468.github.io기준 450개 모두 가져와 지는 것을 확인
+        header_link = user_repo_commit.headers
+        user_repo_commit = user_repo_commit.json()
+        user_repo_commit = [c["committer"] for c in user_repo_commit]
+
+        if 'Link' in header_link.keys():
+            header_link = header_link["Link"]
+
+            while 'rel="next"' in header_link:
+                next_link = header_link.split('rel="next"')[0]
+                next_link = next_link[1:len(next_link) - 3]
+
+                next_user_repo_commit = requests.get(next_link)
+                header_link = next_user_repo_commit.headers["Link"]
+                next_user_repo_commit = next_user_repo_commit.json()
+
+                user_repo_commit += [c["committer"]
+                                     for c in next_user_repo_commit]
+    except Exception as e:
+        print(e)
+        user_repo_commit = "Can't get " + repo_full_name + " events"
+
+    return user_repo_commit
