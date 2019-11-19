@@ -16,27 +16,27 @@ def home(request):
         username = user.username
         user_data = get_user_data(username)
 
-        if type(user_data) is dict:
-            user_repo = get_user_repo(username)
-            orgs_data = get_user_orgs(username)
+        # if type(user_data) is dict:
+        #     user_repo = get_user_repo(username)
+        #     orgs_data = get_user_orgs(username)
 
-            orgs_repo_data = []
+        #     orgs_repo_data = []
 
-            for orgs in orgs_data:
-                orgs_repo_temp = get_orgs_repo(orgs)
+        #     for orgs in orgs_data:
+        #         orgs_repo_temp = get_orgs_repo(orgs)
 
-                if type(orgs_repo_temp) is list:
-                    orgs_repo_data.extend(orgs_repo_temp)
+        #         if type(orgs_repo_temp) is list:
+        #             orgs_repo_data.extend(orgs_repo_temp)
 
-            user_repo += orgs_repo_data
-            user_repo = natsorted(list(set(user_repo)), alg=ns.IGNORECASE)
-        else:
-            user_repo = "Can't get user repository data."
+        #     user_repo += orgs_repo_data
+        #     user_repo = natsorted(list(set(user_repo)), alg=ns.IGNORECASE)
+        # else:
+        #     user_repo = "Can't get user repository data."
 
     return render(request, 'main/home.html', {
         "user_data": user_data,
-        "user_repo": user_repo,
-        "orgs_data": orgs_data,
+        # "user_repo": user_repo,
+        # "orgs_data": orgs_data,
     })
 
 

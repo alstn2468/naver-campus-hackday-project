@@ -53,8 +53,4 @@
 	{% else %}
 		<p>{{ user_repo }}</p>
 	{% endif %}
-	<a href={% url 'settings' %}>Github Auth Setting Button</a><br>
-	<a href={% url 'password' %}>Password Setting Button</a><br>
-	<a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
-	<a href={% url 'logout' %}>Logout</a><br>
 {% endblock %}
