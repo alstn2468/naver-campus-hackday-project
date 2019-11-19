@@ -41,7 +41,7 @@ def get_user_orgs(username):
         username : Github으로 로그인한 사용자 이름
 
     Returns:
-        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 성공했을 경우 Dict in List
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
@@ -49,7 +49,8 @@ def get_user_orgs(username):
             conf.GIT_API_URL + "/users/" + username + "/orgs" + conf.SUFFIX
         ).json()
 
-        orgs_data = [orgs["login"] for orgs in orgs_data]
+        orgs_data = [{"orgs_name": orgs["login"],
+                      "avatar_url": orgs["avatar_url"]} for orgs in orgs_data]
     except Exception as e:
         print(e)
         orgs_data = "Can't get user organization data."

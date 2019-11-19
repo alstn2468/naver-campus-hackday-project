@@ -37,7 +37,7 @@
                     {% if user.is_authenticated %}
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle align-middle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="{{ user_data.avatar_url }}" alt="User Avatar" width="30" height="30">
+                        <img src="{{ user_data.avatar_url }}" alt="User Avatar" width="25" height="25">
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="{% url 'settings' %}">Github Auth Setting Button</a>

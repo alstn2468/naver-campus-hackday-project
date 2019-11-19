@@ -25,7 +25,7 @@
 		{% for key, val in user_data.items %}
 			{% if key == "avatar_url" %}
 				<li>Profile Avatar</li>
-				<img src={{ val }} alt="user_avatar" width="200" height="200" />
+				<img src="{{ val }}" alt="user_avatar" width="200" height="200" />
 			{% else %}
 				<li>{{ key }} : {{ val }}</li>
 			{% endif %}
@@ -38,7 +38,7 @@
     {% if orgs_data|get_type == "list" %}
         <ul>
         {% for orgs in orgs_data %}
-            <li>{{ orgs }}</li>
+            <li><img src="{{ orgs.avatar_url }}" alt="org_avatar" width="30" height="30" /> {{ orgs.orgs_name }}</li>
         {% endfor %}
         </ul>
     {% else %}
