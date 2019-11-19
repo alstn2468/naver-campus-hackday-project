@@ -174,7 +174,7 @@ def get_user_repo_commit(repo_full_name):
         repo_full_name : user/repo 형식의 Str
 
     Returns:
-        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 성공했을 경우 Dict in List
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
