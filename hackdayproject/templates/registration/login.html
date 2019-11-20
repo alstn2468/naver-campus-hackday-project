@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2>Login</h2>
+    <h2 class="text-center">로그인</h2>
     <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Login</button>
+        <div class="form-group w-50 m-auto pt-5 pb-5 border rounded shadow">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="pb-3 col w-70">
+                <label class="col-form-label text-center" for="{{ field.name }}">{{ field.label }}</label>
+                <div class="m-auto">{{ field }}</div>
+            </div>
+            {% endfor %}
+            <button type="submit" class="btn btn-outline-dark btn-lg btn-block w-50 ml-auto mr-auto">LOGIN</button>
+        </div>
     </form>
-    <br>
-    <p><strong>-- OR --</strong></p>
-    <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
 {% endblock %}

@@ -4,7 +4,7 @@ from hackdayproject.main import views as main_views
 
 urlpatterns = [
     path('', main_views.home, name='home'),
-    path('login/', auth_views.LoginView.as_view(), name='login'),
+    path('login/', main_views.MyLoginView.as_view(), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('settings/', main_views.settings, name='settings'),
     path('settings/password/', main_views.password, name='password'),

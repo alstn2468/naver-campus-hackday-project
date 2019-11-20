@@ -2,8 +2,6 @@ from django.db import models
 from django.conf import settings
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from model_utils.models import TimeStampedModel
-from django.utils.translation import ugettext_lazy as _
 from hackdayproject.utils.github_api import get_user_data
 
 
@@ -52,29 +50,3 @@ def create_user_profile(sender, instance, created, **kwargs):
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
 def save_user_profile(sender, instance, **kwargs):
     instance.profile.save()
-
-
-class UserLoginLog(TimeStampedModel):
-    user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        verbose_name=_('User'),
-        related_name='login_logs',
-        blank=True,
-        null=True,
-        on_delete=models.CASCADE
-    )
-    ip_address = models.GenericIPAddressField(
-        verbose_name=_('IP Address')
-    )
-    user_agent = models.CharField(
-        verbose_name=_('HTTP User Agent'),
-        max_length=300,
-    )
-
-    class Meta:
-        verbose_name = _('user login log')
-        verbose_name_plural = _('user login logs')
-        ordering = ('-created',)
-
-    def __str__(self):
-        return '%s %s' % (self.user, self.ip_address)

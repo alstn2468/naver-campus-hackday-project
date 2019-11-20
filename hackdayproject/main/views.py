@@ -1,5 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import AdminPasswordChangeForm
+from django.contrib.auth import views as auth_views
 from django.contrib.auth import update_session_auth_hash
 from django.contrib import messages
 from django.shortcuts import render, redirect
@@ -7,7 +8,7 @@ from hackdayproject.utils.github_api import *
 from hackdayproject.main.models import Profile
 from social_django.models import UserSocialAuth
 from natsort import natsorted, ns
-from hackdayproject.main.forms import MyPasswordChangeForm
+from hackdayproject.main.forms import *
 
 
 def home(request):
@@ -50,6 +51,10 @@ def home(request):
         # "user_repo": user_repo,
         "orgs_data": orgs_data,
     })
+
+
+class MyLoginView(auth_views.LoginView):
+    form_class = MyLoginForm
 
 
 @login_required
