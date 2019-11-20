@@ -1,0 +1,2377 @@
+[
+    {
+        "sha": "3d20fba3520bd46905cfed89a15608a021b34bfa",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjNkMjBmYmEzNTIwYmQ0NjkwNWNmZWQ4OWExNTYwOGEwMjFiMzRiZmE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T16:12:20Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T16:12:20Z"
+            },
+            "message": "Fix comment in 3.c",
+            "tree": {
+                "sha": "4fed8191efdc875cf12c90bb2ff2bb2d45c31e69",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/4fed8191efdc875cf12c90bb2ff2bb2d45c31e69"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/3d20fba3520bd46905cfed89a15608a021b34bfa",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/3d20fba3520bd46905cfed89a15608a021b34bfa",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/3d20fba3520bd46905cfed89a15608a021b34bfa",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/3d20fba3520bd46905cfed89a15608a021b34bfa/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/8b970dd63e42f71ae6f3fab366b73f1b67430c8d"
+            }
+        ]
+    },
+    {
+        "sha": "8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjhiOTcwZGQ2M2U0MmY3MWFlNmYzZmFiMzY2YjczZjFiNjc0MzBjOGQ=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T15:14:05Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T15:14:05Z"
+            },
+            "message": "Fix comment in 1.c & 2.c",
+            "tree": {
+                "sha": "4cfd00c642d40814821a7c7afe23c3a1899ac9a6",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/4cfd00c642d40814821a7c7afe23c3a1899ac9a6"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/8b970dd63e42f71ae6f3fab366b73f1b67430c8d",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8b970dd63e42f71ae6f3fab366b73f1b67430c8d/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "6878554e02da148e4880f5b519fb6cd2f28c06a1",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/6878554e02da148e4880f5b519fb6cd2f28c06a1",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/6878554e02da148e4880f5b519fb6cd2f28c06a1"
+            }
+        ]
+    },
+    {
+        "sha": "6878554e02da148e4880f5b519fb6cd2f28c06a1",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjY4Nzg1NTRlMDJkYTE0OGU0ODgwZjViNTE5ZmI2Y2QyZjI4YzA2YTE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T12:20:21Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T12:20:21Z"
+            },
+            "message": "Complete 2.c & 3.c",
+            "tree": {
+                "sha": "a6e23473d7e7f1a7d66465d055fbf3e15f8130fe",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/a6e23473d7e7f1a7d66465d055fbf3e15f8130fe"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/6878554e02da148e4880f5b519fb6cd2f28c06a1",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/6878554e02da148e4880f5b519fb6cd2f28c06a1",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/6878554e02da148e4880f5b519fb6cd2f28c06a1",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/6878554e02da148e4880f5b519fb6cd2f28c06a1/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1"
+            }
+        ]
+    },
+    {
+        "sha": "1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjFhNTQ3MmE1ZjA5ZGUzZjNlMDUwOTRkOThjNjMzMGVmNTBmN2ZjZjE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T09:04:47Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T09:04:47Z"
+            },
+            "message": "Change favicon",
+            "tree": {
+                "sha": "e63065d7aca6cc95b3abd67450aedef2e0e83e43",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/e63065d7aca6cc95b3abd67450aedef2e0e83e43"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/1a5472a5f09de3f3e05094d98c6330ef50f7fcf1/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/7b218d9a7b7e5b4be661337445d7b01ee423a5cc"
+            }
+        ]
+    },
+    {
+        "sha": "7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjdiMjE4ZDlhN2I3ZTViNGJlNjYxMzM3NDQ1ZDdiMDFlZTQyM2E1Y2M=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:29:06Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:29:06Z"
+            },
+            "message": "Complete 3.c",
+            "tree": {
+                "sha": "35277e8807f799e5b431b353ca095b2285ce2471",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/35277e8807f799e5b431b353ca095b2285ce2471"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/7b218d9a7b7e5b4be661337445d7b01ee423a5cc",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7b218d9a7b7e5b4be661337445d7b01ee423a5cc/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "b8095675aafc1f16567c6a16734560e9393f46c0",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/b8095675aafc1f16567c6a16734560e9393f46c0",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/b8095675aafc1f16567c6a16734560e9393f46c0"
+            }
+        ]
+    },
+    {
+        "sha": "b8095675aafc1f16567c6a16734560e9393f46c0",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmI4MDk1Njc1YWFmYzFmMTY1NjdjNmExNjczNDU2MGU5MzkzZjQ2YzA=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:28:59Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:28:59Z"
+            },
+            "message": "Complete 2.c",
+            "tree": {
+                "sha": "a3a09108f01b711ad3b586ad91fd18f4f6a57b92",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/a3a09108f01b711ad3b586ad91fd18f4f6a57b92"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/b8095675aafc1f16567c6a16734560e9393f46c0",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/b8095675aafc1f16567c6a16734560e9393f46c0",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/b8095675aafc1f16567c6a16734560e9393f46c0",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/b8095675aafc1f16567c6a16734560e9393f46c0/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9"
+            }
+        ]
+    },
+    {
+        "sha": "e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmUyNWI4NjNhNGYwM2U4MjNhYWM4YWVmYjJlMGRmYjZhNGRjOTA1Yjk=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:28:37Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-12-04T05:28:37Z"
+            },
+            "message": "Complete 1.c & Add Comment 1.c",
+            "tree": {
+                "sha": "22a431781a86eb7b86d2ea8d19fc1bc6fe6caa3c",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/22a431781a86eb7b86d2ea8d19fc1bc6fe6caa3c"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/e25b863a4f03e823aac8aefb2e0dfb6a4dc905b9/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "a8296866541ffb86d5990fde88f0c291ce06475d",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/a8296866541ffb86d5990fde88f0c291ce06475d",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/a8296866541ffb86d5990fde88f0c291ce06475d"
+            }
+        ]
+    },
+    {
+        "sha": "a8296866541ffb86d5990fde88f0c291ce06475d",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmE4Mjk2ODY2NTQxZmZiODZkNTk5MGZkZTg4ZjBjMjkxY2UwNjQ3NWQ=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-28T11:27:18Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-28T11:27:18Z"
+            },
+            "message": "Fix Comment",
+            "tree": {
+                "sha": "c937d9aac36575391400c10c3e5490dc6bc5f162",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/c937d9aac36575391400c10c3e5490dc6bc5f162"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/a8296866541ffb86d5990fde88f0c291ce06475d",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/a8296866541ffb86d5990fde88f0c291ce06475d",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/a8296866541ffb86d5990fde88f0c291ce06475d",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/a8296866541ffb86d5990fde88f0c291ce06475d/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564"
+            }
+        ]
+    },
+    {
+        "sha": "235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjIzNWIyYmJhZmYzZTVkY2YyY2MyZWZmNTgwZGUwZThlNWQzY2Y1NjQ=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:25:33Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:25:33Z"
+            },
+            "message": "Fix 3.c Comment",
+            "tree": {
+                "sha": "f88ed569cb96bad044759f50909cedb85f6a3fe9",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/f88ed569cb96bad044759f50909cedb85f6a3fe9"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/235b2bbaff3e5dcf2cc2eff580de0e8e5d3cf564/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "f923f04ecdada822479f95eef459c491eff64418",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f923f04ecdada822479f95eef459c491eff64418",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/f923f04ecdada822479f95eef459c491eff64418"
+            }
+        ]
+    },
+    {
+        "sha": "f923f04ecdada822479f95eef459c491eff64418",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmY5MjNmMDRlY2RhZGE4MjI0NzlmOTVlZWY0NTljNDkxZWZmNjQ0MTg=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:23:58Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:23:58Z"
+            },
+            "message": "Add Comment in 3.c",
+            "tree": {
+                "sha": "8100bcd65d7951a7b53c8b882b26de10873f9fde",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/8100bcd65d7951a7b53c8b882b26de10873f9fde"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/f923f04ecdada822479f95eef459c491eff64418",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f923f04ecdada822479f95eef459c491eff64418",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/f923f04ecdada822479f95eef459c491eff64418",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f923f04ecdada822479f95eef459c491eff64418/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "94e9b553e65e887664980e4093fbc118c68bc6e2",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/94e9b553e65e887664980e4093fbc118c68bc6e2",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/94e9b553e65e887664980e4093fbc118c68bc6e2"
+            }
+        ]
+    },
+    {
+        "sha": "94e9b553e65e887664980e4093fbc118c68bc6e2",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjk0ZTliNTUzZTY1ZTg4NzY2NDk4MGU0MDkzZmJjMTE4YzY4YmM2ZTI=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:12:04Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:12:04Z"
+            },
+            "message": "Fix Comment in 1.c",
+            "tree": {
+                "sha": "226a941a045c633aa4aa1afe210070114f61ad25",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/226a941a045c633aa4aa1afe210070114f61ad25"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/94e9b553e65e887664980e4093fbc118c68bc6e2",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/94e9b553e65e887664980e4093fbc118c68bc6e2",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/94e9b553e65e887664980e4093fbc118c68bc6e2",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/94e9b553e65e887664980e4093fbc118c68bc6e2/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "be6b885c9a2671a64a0d510614bff82008f6c797",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/be6b885c9a2671a64a0d510614bff82008f6c797",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/be6b885c9a2671a64a0d510614bff82008f6c797"
+            }
+        ]
+    },
+    {
+        "sha": "be6b885c9a2671a64a0d510614bff82008f6c797",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmJlNmI4ODVjOWEyNjcxYTY0YTBkNTEwNjE0YmZmODIwMDhmNmM3OTc=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:05:09Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T18:05:09Z"
+            },
+            "message": "Fix TABLE_SIZE in 2.c",
+            "tree": {
+                "sha": "f542346ba64f776e95c0f862f3b5a0ea668521af",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/f542346ba64f776e95c0f862f3b5a0ea668521af"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/be6b885c9a2671a64a0d510614bff82008f6c797",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/be6b885c9a2671a64a0d510614bff82008f6c797",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/be6b885c9a2671a64a0d510614bff82008f6c797",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/be6b885c9a2671a64a0d510614bff82008f6c797/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18"
+            }
+        ]
+    },
+    {
+        "sha": "141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjE0MWNjNjRlYTA4NDBhOGRjYTJlNjhmN2M3YjljZjM3ZmQ5NjRjMTg=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T17:21:55Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T17:21:55Z"
+            },
+            "message": "Add Comment 2.c",
+            "tree": {
+                "sha": "4dd4ced3fe77e37701537f803629068e05a0f9a6",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/4dd4ced3fe77e37701537f803629068e05a0f9a6"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/141cc64ea0840a8dca2e68f7c7b9cf37fd964c18/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "20c997889149648c1f29879797dcfb1b8ff36525",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/20c997889149648c1f29879797dcfb1b8ff36525",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/20c997889149648c1f29879797dcfb1b8ff36525"
+            }
+        ]
+    },
+    {
+        "sha": "20c997889149648c1f29879797dcfb1b8ff36525",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjIwYzk5Nzg4OTE0OTY0OGMxZjI5ODc5Nzk3ZGNmYjFiOGZmMzY1MjU=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T16:52:03Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T16:52:03Z"
+            },
+            "message": "Add Comment 1.c",
+            "tree": {
+                "sha": "c79c1514372f12c275a8b7a8b9f9d4a708b85ba3",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/c79c1514372f12c275a8b7a8b9f9d4a708b85ba3"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/20c997889149648c1f29879797dcfb1b8ff36525",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/20c997889149648c1f29879797dcfb1b8ff36525",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/20c997889149648c1f29879797dcfb1b8ff36525",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/20c997889149648c1f29879797dcfb1b8ff36525/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "22402eea0a07a5c61f1e26de33c38150080b113d",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/22402eea0a07a5c61f1e26de33c38150080b113d",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/22402eea0a07a5c61f1e26de33c38150080b113d"
+            }
+        ]
+    },
+    {
+        "sha": "22402eea0a07a5c61f1e26de33c38150080b113d",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjIyNDAyZWVhMGEwN2E1YzYxZjFlMjZkZTMzYzM4MTUwMDgwYjExM2Q=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T15:41:46Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T15:41:46Z"
+            },
+            "message": "Complete 3.c",
+            "tree": {
+                "sha": "bc33e94d53e3bdbd48ecde92724157db0aab6f4f",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/bc33e94d53e3bdbd48ecde92724157db0aab6f4f"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/22402eea0a07a5c61f1e26de33c38150080b113d",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/22402eea0a07a5c61f1e26de33c38150080b113d",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/22402eea0a07a5c61f1e26de33c38150080b113d",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/22402eea0a07a5c61f1e26de33c38150080b113d/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "ea181ba90c52c00aa10248ede424b0c5eeb02225",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/ea181ba90c52c00aa10248ede424b0c5eeb02225",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/ea181ba90c52c00aa10248ede424b0c5eeb02225"
+            }
+        ]
+    },
+    {
+        "sha": "ea181ba90c52c00aa10248ede424b0c5eeb02225",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmVhMTgxYmE5MGM1MmMwMGFhMTAyNDhlZGU0MjRiMGM1ZWViMDIyMjU=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T07:10:55Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T07:10:55Z"
+            },
+            "message": "Complete 1.c & 2.c",
+            "tree": {
+                "sha": "0df560871850c7cee18fa7f9f532aac49e413f6a",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/0df560871850c7cee18fa7f9f532aac49e413f6a"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/ea181ba90c52c00aa10248ede424b0c5eeb02225",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/ea181ba90c52c00aa10248ede424b0c5eeb02225",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/ea181ba90c52c00aa10248ede424b0c5eeb02225",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/ea181ba90c52c00aa10248ede424b0c5eeb02225/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/537d9976e094ef9fb31c5f475179fb8c83c1f31a"
+            }
+        ]
+    },
+    {
+        "sha": "537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjUzN2Q5OTc2ZTA5NGVmOWZiMzFjNWY0NzUxNzlmYjhjODNjMWYzMWE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T05:56:01Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-27T05:56:01Z"
+            },
+            "message": "Complete 1.c",
+            "tree": {
+                "sha": "b0614fa4c879260cfdf7a72350179c36b3f8da95",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/b0614fa4c879260cfdf7a72350179c36b3f8da95"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/537d9976e094ef9fb31c5f475179fb8c83c1f31a",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/537d9976e094ef9fb31c5f475179fb8c83c1f31a/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/c62830e40612d8d53cf9a06d3aef48d5225d1b7d"
+            }
+        ]
+    },
+    {
+        "sha": "c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmM2MjgzMGU0MDYxMmQ4ZDUzY2Y5YTA2ZDNhZWY0OGQ1MjI1ZDFiN2Q=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T15:33:45Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T15:33:45Z"
+            },
+            "message": "Fix Comment 2.c",
+            "tree": {
+                "sha": "31f8172ec122c0ab762ecd1d881408f39de1baef",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/31f8172ec122c0ab762ecd1d881408f39de1baef"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/c62830e40612d8d53cf9a06d3aef48d5225d1b7d",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/c62830e40612d8d53cf9a06d3aef48d5225d1b7d/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/53da1f2dee0b9cea2194e63be324169bfe1ef30b"
+            }
+        ]
+    },
+    {
+        "sha": "53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjUzZGExZjJkZWUwYjljZWEyMTk0ZTYzYmUzMjQxNjliZmUxZWYzMGI=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T15:33:23Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T15:33:23Z"
+            },
+            "message": "Fic Comment 1.c",
+            "tree": {
+                "sha": "2c97f81f6c81738e987ae7b061548194e8d731cc",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/2c97f81f6c81738e987ae7b061548194e8d731cc"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/53da1f2dee0b9cea2194e63be324169bfe1ef30b",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/53da1f2dee0b9cea2194e63be324169bfe1ef30b/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972"
+            }
+        ]
+    },
+    {
+        "sha": "55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjU1ZmU5NDk1YTQxYTBhNGExNWY3ZWRkMGZiOWIxNTEyYTQ2YjY5NzI=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T13:34:30Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T13:34:30Z"
+            },
+            "message": "FIx 1.c Comment",
+            "tree": {
+                "sha": "7a4af2af61b78e7fdbb1042a2ce73f4eecbd207c",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/7a4af2af61b78e7fdbb1042a2ce73f4eecbd207c"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/55fe9495a41a0a4a15f7edd0fb9b1512a46b6972/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/4e2ffedddd2649c59f4b66464bf71c08b2f4090c"
+            }
+        ]
+    },
+    {
+        "sha": "4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjRlMmZmZWRkZGQyNjQ5YzU5ZjRiNjY0NjRiZjcxYzA4YjJmNDA5MGM=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T09:34:00Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T09:34:00Z"
+            },
+            "message": "Complete 2.c in 2018_11_20",
+            "tree": {
+                "sha": "96025d7c684bce31a3e4da69af5209b253afd289",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/96025d7c684bce31a3e4da69af5209b253afd289"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/4e2ffedddd2649c59f4b66464bf71c08b2f4090c",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4e2ffedddd2649c59f4b66464bf71c08b2f4090c/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/cb60129ce06e76d4098455957bb019cc3ea1eb9a"
+            }
+        ]
+    },
+    {
+        "sha": "cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmNiNjAxMjljZTA2ZTc2ZDQwOTg0NTU5NTdiYjAxOWNjM2VhMWViOWE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T07:49:56Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T07:49:56Z"
+            },
+            "message": "Merge branch 'master' of https://github.com/SoonchunhyangUniversity/Data_Structure",
+            "tree": {
+                "sha": "4be042a659afacd80bfb1949300141cbf88280f3",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/4be042a659afacd80bfb1949300141cbf88280f3"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/cb60129ce06e76d4098455957bb019cc3ea1eb9a",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/cb60129ce06e76d4098455957bb019cc3ea1eb9a/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/7c4b3fcf545f90c402e6db704cef11c7f705d8ca"
+            },
+            {
+                "sha": "bfe81ff795901e42fcc18aadffb0652454415c59",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/bfe81ff795901e42fcc18aadffb0652454415c59",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/bfe81ff795901e42fcc18aadffb0652454415c59"
+            }
+        ]
+    },
+    {
+        "sha": "7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjdjNGIzZmNmNTQ1ZjkwYzQwMmU2ZGI3MDRjZWYxMWM3ZjcwNWQ4Y2E=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T07:47:02Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-20T07:47:02Z"
+            },
+            "message": "Complete 1.c in 2018_11_20",
+            "tree": {
+                "sha": "e81b5fed9912d550edbaf5009b91d68731fb008d",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/e81b5fed9912d550edbaf5009b91d68731fb008d"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/7c4b3fcf545f90c402e6db704cef11c7f705d8ca",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/7c4b3fcf545f90c402e6db704cef11c7f705d8ca/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "48fad598a1ea826243fe736dd27168ceb6291b59",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/48fad598a1ea826243fe736dd27168ceb6291b59",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/48fad598a1ea826243fe736dd27168ceb6291b59"
+            }
+        ]
+    },
+    {
+        "sha": "bfe81ff795901e42fcc18aadffb0652454415c59",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmJmZTgxZmY3OTU5MDFlNDJmY2MxOGFhZGZmYjA2NTI0NTQ0MTVjNTk=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:53:36Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:53:36Z"
+            },
+            "message": "Fix Comment",
+            "tree": {
+                "sha": "1061584de45c81179e42e78482401c6bb903de96",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/1061584de45c81179e42e78482401c6bb903de96"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/bfe81ff795901e42fcc18aadffb0652454415c59",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/bfe81ff795901e42fcc18aadffb0652454415c59",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/bfe81ff795901e42fcc18aadffb0652454415c59",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/bfe81ff795901e42fcc18aadffb0652454415c59/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/8ad04731e8db0715ac16a8deedbf94f366ee11ad"
+            }
+        ]
+    },
+    {
+        "sha": "8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjhhZDA0NzMxZThkYjA3MTVhYzE2YThkZWVkYmY5NGYzNjZlZTExYWQ=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:31:26Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:31:26Z"
+            },
+            "message": "Fix Comment",
+            "tree": {
+                "sha": "61153ef24f3eece8ed1ff55e4e92dc5f55a05cce",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/61153ef24f3eece8ed1ff55e4e92dc5f55a05cce"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/8ad04731e8db0715ac16a8deedbf94f366ee11ad",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8ad04731e8db0715ac16a8deedbf94f366ee11ad/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/f435b6cc3a4bf6e9049f11081619b319ed639cd9"
+            }
+        ]
+    },
+    {
+        "sha": "f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmY0MzViNmNjM2E0YmY2ZTkwNDlmMTEwODE2MTliMzE5ZWQ2MzljZDk=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:17:23Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:17:23Z"
+            },
+            "message": "Fix Comment",
+            "tree": {
+                "sha": "6b86c8b1aab61b6bc761871c461c4f120abf6bdd",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/6b86c8b1aab61b6bc761871c461c4f120abf6bdd"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/f435b6cc3a4bf6e9049f11081619b319ed639cd9",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/f435b6cc3a4bf6e9049f11081619b319ed639cd9/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "48fad598a1ea826243fe736dd27168ceb6291b59",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/48fad598a1ea826243fe736dd27168ceb6291b59",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/48fad598a1ea826243fe736dd27168ceb6291b59"
+            }
+        ]
+    },
+    {
+        "sha": "48fad598a1ea826243fe736dd27168ceb6291b59",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjQ4ZmFkNTk4YTFlYTgyNjI0M2ZlNzM2ZGQyNzE2OGNlYjYyOTFiNTk=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:13:12Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-17T10:13:12Z"
+            },
+            "message": "Fix Comment",
+            "tree": {
+                "sha": "73942b933085f2dc27586ea8bbaaca1fe27f70f0",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/73942b933085f2dc27586ea8bbaaca1fe27f70f0"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/48fad598a1ea826243fe736dd27168ceb6291b59",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/48fad598a1ea826243fe736dd27168ceb6291b59",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/48fad598a1ea826243fe736dd27168ceb6291b59",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/48fad598a1ea826243fe736dd27168ceb6291b59/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a"
+            }
+        ]
+    },
+    {
+        "sha": "fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOmZhZDBlOTE2NmQ3MzNhN2EzM2VkNWQ5M2NiZmE2YzkyY2Q0MDVjNWE=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-15T08:56:34Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-15T08:56:34Z"
+            },
+            "message": "Add 3.c Comment",
+            "tree": {
+                "sha": "5584ec0cbb04b676c486b559cb23d16e02e4cf4f",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/5584ec0cbb04b676c486b559cb23d16e02e4cf4f"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/fad0e9166d733a7a33ed5d93cbfa6c92cd405c5a/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "895b8bf9ffa4177ad85c73797cff9312020f8ead",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/895b8bf9ffa4177ad85c73797cff9312020f8ead",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/895b8bf9ffa4177ad85c73797cff9312020f8ead"
+            }
+        ]
+    },
+    {
+        "sha": "895b8bf9ffa4177ad85c73797cff9312020f8ead",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjg5NWI4YmY5ZmZhNDE3N2FkODVjNzM3OTdjZmY5MzEyMDIwZjhlYWQ=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-10T03:59:59Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-10T03:59:59Z"
+            },
+            "message": "Add Main Function Comment 3.c",
+            "tree": {
+                "sha": "118cc28ce8762340ad916d3ee5b2b6dccd3f0f10",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/118cc28ce8762340ad916d3ee5b2b6dccd3f0f10"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/895b8bf9ffa4177ad85c73797cff9312020f8ead",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/895b8bf9ffa4177ad85c73797cff9312020f8ead",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/895b8bf9ffa4177ad85c73797cff9312020f8ead",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/895b8bf9ffa4177ad85c73797cff9312020f8ead/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927"
+            }
+        ]
+    },
+    {
+        "sha": "4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+        "node_id": "MDY6Q29tbWl0MTIzOTAyNjgyOjRmZjM4NGU4ZTZiOGZhYjA5OTJlM2FiMTg5YzZiMGNiOTU1M2Q5Mjc=",
+        "commit": {
+            "author": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-09T08:06:02Z"
+            },
+            "committer": {
+                "name": "alstn2468",
+                "email": "alstn2468_@naver.com",
+                "date": "2018-11-09T08:06:02Z"
+            },
+            "message": "Add Comment 3.c",
+            "tree": {
+                "sha": "3cf479394e32c96f42d0cf01c8992f84da102ba2",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/trees/3cf479394e32c96f42d0cf01c8992f84da102ba2"
+            },
+            "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/git/commits/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+            "comment_count": 0,
+            "verification": {
+                "verified": False,
+                "reason": "unsigned",
+                "signature": None,
+                "payload": None
+            }
+        },
+        "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+        "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927",
+        "comments_url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/4ff384e8e6b8fab0992e3ab189c6b0cb9553d927/comments",
+        "author": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "committer": {
+            "login": "alstn2468",
+            "id": 30997311,
+            "node_id": "MDQ6VXNlcjMwOTk3MzEx",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/30997311?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alstn2468",
+            "html_url": "https://github.com/alstn2468",
+            "followers_url": "https://api.github.com/users/alstn2468/followers",
+            "following_url": "https://api.github.com/users/alstn2468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alstn2468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alstn2468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alstn2468/subscriptions",
+            "organizations_url": "https://api.github.com/users/alstn2468/orgs",
+            "repos_url": "https://api.github.com/users/alstn2468/repos",
+            "events_url": "https://api.github.com/users/alstn2468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alstn2468/received_events",
+            "type": "User",
+            "site_admin": False
+        },
+        "parents": [
+            {
+                "sha": "8db3a7a7ddc53a52c0454303935c950f365b5d43",
+                "url": "https://api.github.com/repos/SoonchunhyangUniversity/CSE_Data_Structure/commits/8db3a7a7ddc53a52c0454303935c950f365b5d43",
+                "html_url": "https://github.com/SoonchunhyangUniversity/CSE_Data_Structure/commit/8db3a7a7ddc53a52c0454303935c950f365b5d43"
+            }
+        ]
+    }
+]

@@ -71,7 +71,9 @@ def get_orgs_repo(orgs_name):
     try:
         orgs_repo_data = requests.get(
             conf.GIT_API_URL + "/orgs/" + orgs_name + "/repos" + conf.SUFFIX
-        ).json()
+        )
+        header_link = orgs_repo_data.headers
+        orgs_repo_data = orgs_repo_data.json()
 
         orgs_repo_data = [repo["full_name"] for repo in orgs_repo_data]
     except Exception as e:
@@ -125,8 +127,8 @@ def get_user_repo(username):
     return user_repo
 
 
-def get_user_repo_commit(repo_full_name):
-    '''Github  레파지토리 커밋 정보 반환
+def get__repo_commit(repo_full_name):
+    '''Github 레파지토리 커밋 정보 반환
 
     Args:
         repo_full_name : user/repo 형식의 Str
