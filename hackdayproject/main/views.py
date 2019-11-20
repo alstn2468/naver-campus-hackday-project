@@ -4,10 +4,10 @@ from django.contrib.auth import views as auth_views
 from django.contrib.auth import update_session_auth_hash
 from django.contrib import messages
 from django.shortcuts import render, redirect
-from hackdayproject.utils.github_api import *
+from hackdayproject.utils.github_api import get_user_data, get_user_orgs
 from hackdayproject.main.models import Profile
 from social_django.models import UserSocialAuth
-from hackdayproject.main.forms import *
+from hackdayproject.main.forms import MyLoginForm, MyPasswordChangeForm
 from hackdayproject.utils.util_function import get_user_all_repo
 
 
