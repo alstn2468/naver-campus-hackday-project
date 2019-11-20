@@ -127,7 +127,7 @@ def get_user_repo(username):
     return user_repo
 
 
-def get__repo_commit(repo_full_name):
+def get_repo_commit(repo_full_name):
     '''Github 레파지토리 커밋 정보 반환
 
     Args:
