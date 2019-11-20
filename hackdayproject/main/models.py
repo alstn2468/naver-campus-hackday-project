@@ -7,7 +7,9 @@ from hackdayproject.utils.github_api import get_user_data
 
 class Profile(models.Model):
     user = models.OneToOneField(
-        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, primary_key=True
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        primary_key=True
     )
     avatar_url = models.TextField()
     company = models.CharField(max_length=50, blank=True)

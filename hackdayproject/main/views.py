@@ -6,6 +6,7 @@ from django.contrib import messages
 from django.shortcuts import render, redirect
 from hackdayproject.utils.github_api import get_user_data, get_user_orgs
 from hackdayproject.main.models import Profile
+from hackdayproject.repo.models import Repository
 from social_django.models import UserSocialAuth
 from hackdayproject.main.forms import MyLoginForm, MyPasswordChangeForm
 from hackdayproject.utils.util_function import get_user_all_repo
@@ -34,11 +35,23 @@ def home(request):
 
         orgs_data = get_user_orgs(username)
         user_repo = get_user_all_repo(username, orgs_data)
+
+        for repo in user_repo:
+            repository = Repository(
+                user=user,
+                full_name=repo["full_name"],
+                owner=repo["owner"],
+                language=repo["language"],
+                description=repo["description"],
+                created_at=repo["created_at"],
+                updated_at=repo["updated_at"],
+                pushed_at=repo["pushed_at"]
+            )
+            repository.save()
     else:
         orgs_data = "AnonymousUser"
 
     return render(request, 'main/home.html', {
-        "user_repo": user_repo,
         "orgs_data": orgs_data
     })
 

@@ -49,8 +49,11 @@ def get_user_orgs(username):
             conf.GIT_API_URL + "/users/" + username + "/orgs" + conf.SUFFIX
         ).json()
 
-        orgs_data = [{"orgs_name": orgs["login"],
-                      "avatar_url": orgs["avatar_url"]} for orgs in orgs_data]
+        orgs_data = [
+            {
+                "orgs_name": orgs["login"],
+                "avatar_url": orgs["avatar_url"]
+            } for orgs in orgs_data]
     except Exception as e:
         print(e)
         orgs_data = "Can't get user organization data."
@@ -78,6 +81,7 @@ def get_orgs_repo(orgs_name):
         orgs_repo_data = [
             {
                 "full_name": repos["full_name"],
+                "owner": repos["owner"]["login"],
                 "language": repos["language"],
                 "description": repos["description"],
                 "created_at": repos["created_at"],
@@ -112,6 +116,7 @@ def get_user_repo(username):
         user_repo = [
             {
                 "full_name": repos["full_name"],
+                "owner": repos["owner"]["login"],
                 "language": repos["language"],
                 "description": repos["description"],
                 "created_at": repos["created_at"],
@@ -137,6 +142,7 @@ def get_user_repo(username):
                 user_repo += [
                     {
                         "full_name": repos["full_name"],
+                        "owner": repos["owner"]["login"],
                         "language": repos["language"],
                         "description": repos["description"],
                         "created_at": repos["created_at"],

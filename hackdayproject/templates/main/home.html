@@ -45,14 +45,15 @@
     {% else %}
         <p>{{ orgs_data }}</p>
     {% endif %}
-	{% if user_repo|get_type == "list" %}
+
+	{% if user.repository_set.all|length != 0 %}
 	<ul>
-		{% for repo in user_repo %}	
+		{% for repo in user.repository_set.all %}	
 			<li>{{ repo.full_name }} | {{ repo.language }} | {{ repo.pushed_at }}</li>
 		{% endfor %}
 	</ul>
 	{% else %}
-		<p>{{ user_repo }}</p>
+		<p>{{ user.username }} has no repository.</p>
 	{% endif %}
 </div>
 {% endblock %}
