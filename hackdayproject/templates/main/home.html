@@ -9,6 +9,7 @@
 		<p>Please Login with Github</p>
 	{% endif %}
 
+
 	{% if messages %}
 		<ul class="messages">
 			{% for message in messages %}
@@ -20,20 +21,19 @@
 		</ul>
 	{% endif %}
 
-	{% if user_data|get_type == "dict" %}
-		<ul>
-		{% for key, val in user_data.items %}
-			{% if key == "avatar_url" %}
-				<li>Profile Avatar</li>
-				<img src="{{ val }}" alt="user_avatar" width="200" height="200" />
-			{% else %}
-				<li>{{ key }} : {{ val }}</li>
-			{% endif %}
-		{% endfor %}
-		</ul>
-	{% else %}
-		<p>{{ user_data }}</p>
-	{% endif %}
+	{% if user.profile %}
+        <img src="{{ user.profile.avatar_url }}" alt="user profile avatar" width="100" height="100"/>
+        <p>Company : {{ user.profile.company }}</p>
+        <p>Blog URL : {{ user.profile.blog_url }}</p>
+        <p>Location : {{ user.profile.location }}</p>
+        <p>Bio : {{ user.profile.bio }}</p>
+        <p>Public Repository Count : {{ user.profile.public_repos_count }}</p>
+        <p>Followers : {{ user.profile.followers }}</p>
+        <p>Created Time : {{ user.profile.created_at }}</p>
+        <p>Updated Time : {{ user.profile.updated_at }}</p>
+    {% else %}
+        <p>Can't get user profile data.</p>
+    {% endif %}
 
     {% if orgs_data|get_type == "list" %}
         <ul>

@@ -3,3 +3,11 @@
     margin: 0;
     text-decoration: none;
 }
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+}
