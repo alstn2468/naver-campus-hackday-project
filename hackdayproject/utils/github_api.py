@@ -65,7 +65,7 @@ def get_orgs_repo(orgs_name):
         orgs_name : Github 조직 이름
 
     Returns:
-        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 성공했을 경우 Dict in List
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
@@ -75,7 +75,15 @@ def get_orgs_repo(orgs_name):
         header_link = orgs_repo_data.headers
         orgs_repo_data = orgs_repo_data.json()
 
-        orgs_repo_data = [repo["full_name"] for repo in orgs_repo_data]
+        orgs_repo_data = [
+            {
+                "full_name": repos["full_name"],
+                "language": repos["language"],
+                "description": repos["description"],
+                "created_at": repos["created_at"],
+                "updated_at": repos["updated_at"],
+                "pushed_at": repos["pushed_at"]
+            } for repos in orgs_repo_data]
     except Exception as e:
         print(e)
         orgs_repo_data = "Can't get user organization data."
@@ -90,7 +98,7 @@ def get_user_repo(username):
         username : Github으로 로그인한 사용자 이름
 
     Returns:
-        값을 가져오는데 성공했을 경우 List
+        값을 가져오는데 성공했을 경우 Dict in List
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
@@ -101,7 +109,15 @@ def get_user_repo(username):
             })
         header_link = user_repo.headers
         user_repo = user_repo.json()
-        user_repo = [repos["full_name"] for repos in user_repo]
+        user_repo = [
+            {
+                "full_name": repos["full_name"],
+                "language": repos["language"],
+                "description": repos["description"],
+                "created_at": repos["created_at"],
+                "updated_at": repos["updated_at"],
+                "pushed_at": repos["pushed_at"]
+            } for repos in user_repo]
 
         if 'Link' in header_link.keys():
             header_link = header_link["Link"]
@@ -118,7 +134,15 @@ def get_user_repo(username):
                 # Response data convert to dict
                 next_user_repo = next_user_repo.json()
                 # Append user_repo data
-                user_repo += [repos["full_name"] for repos in next_user_repo]
+                user_repo += [
+                    {
+                        "full_name": repos["full_name"],
+                        "language": repos["language"],
+                        "description": repos["description"],
+                        "created_at": repos["created_at"],
+                        "updated_at": repos["updated_at"],
+                        "pushed_at": repos["pushed_at"]
+                    } for repos in next_user_repo]
 
     except Exception as e:
         print(e)
@@ -145,7 +169,7 @@ def get_repo_commit(repo_full_name):
         # alstn2468.github.io기준 450개 모두 가져와 지는 것을 확인
         header_link = user_repo_commit.headers
         user_repo_commit = user_repo_commit.json()
-        user_repo_commit = [c["committer"] for c in user_repo_commit]
+        user_repo_commit = [c["commit"]["committer"] for c in user_repo_commit]
 
         if 'Link' in header_link.keys():
             header_link = header_link["Link"]
@@ -158,7 +182,7 @@ def get_repo_commit(repo_full_name):
                 header_link = next_user_repo_commit.headers["Link"]
                 next_user_repo_commit = next_user_repo_commit.json()
 
-                user_repo_commit += [c["committer"]
+                user_repo_commit += [c["commit"]["committer"]
                                      for c in next_user_repo_commit]
     except Exception as e:
         print(e)

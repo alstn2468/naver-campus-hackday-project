@@ -9,6 +9,7 @@ from hackdayproject.main.models import Profile
 from social_django.models import UserSocialAuth
 from natsort import natsorted, ns
 from hackdayproject.main.forms import *
+from hackdayproject.utils.util_function import get_user_all_repo
 
 
 def home(request):
@@ -16,7 +17,6 @@ def home(request):
 
     if user.is_authenticated:
         username = user.username
-        user_repo = get_user_repo(username)
         orgs_data = get_user_orgs(username)
 
         if not hasattr(user, "profile"):
@@ -34,22 +34,18 @@ def home(request):
             )
             profile.save()
 
-        #     orgs_repo_data = []
-        #     for orgs in orgs_data:
-        #         orgs_repo_temp = get_orgs_repo(orgs)
-        #         if type(orgs_repo_temp) is list:
-        #             orgs_repo_data.extend(orgs_repo_temp)
-        #     user_repo += orgs_repo_data
-        #     user_repo = natsorted(list(set(user_repo)), alg=ns.IGNORECASE)
-        # else:
-        #     user_repo = "Can't get user repository data."
+        user_repo = get_user_all_repo(username, orgs_data)
 
+        # user_repo = natsorted(list(set(user_repo)),
+        #                       alg=ns.IGNORECASE, key=lambda x: x["full_name"])
+
+        print(user_repo)
     else:
         orgs_data = "AnonymousUser"
 
     return render(request, 'main/home.html', {
-        # "user_repo": user_repo,
-        "orgs_data": orgs_data,
+        "user_repo": user_repo,
+        "orgs_data": orgs_data
     })
 
 

@@ -47,7 +47,7 @@
 	{% if user_repo|get_type == "list" %}
 	<ul>
 		{% for repo in user_repo %}	
-			<li>{{ repo }}</li>
+			<li>{{ repo.full_name }} | {{ repo.language }} | {{ repo.pushed_at }}</li>
 		{% endfor %}
 	</ul>
 	{% else %}
