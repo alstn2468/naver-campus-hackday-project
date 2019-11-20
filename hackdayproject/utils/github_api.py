@@ -47,13 +47,31 @@ def get_user_orgs(username):
     try:
         orgs_data = requests.get(
             conf.GIT_API_URL + "/users/" + username + "/orgs" + conf.SUFFIX
-        ).json()
+        )
+        header_link = orgs_data.headers
+        orgs_data = orgs_data.json()
 
         orgs_data = [
             {
                 "orgs_name": orgs["login"],
                 "avatar_url": orgs["avatar_url"]
             } for orgs in orgs_data]
+
+        if 'Link' in header_link.keys():
+            header_link = header_link["Link"]
+
+            while 'rel="next"' in header_link:
+                next_link = header_link.split('rel="next"')[0]
+                next_link = next_link[1:len(next_link) - 3]
+
+                next_orgs_data = requests.get(next_link)
+                header_link = next_orgs_data.headers["Link"]
+                next_orgs_data = next_orgs_data.json()
+                orgs_data += [
+                    {
+                        "orgs_name": orgs["login"],
+                        "avatar_url": orgs["avatar_url"]
+                    } for orgs in next_orgs_data]
     except Exception as e:
         print(e)
         orgs_data = "Can't get user organization data."
@@ -75,19 +93,40 @@ def get_orgs_repo(orgs_name):
         orgs_repo_data = requests.get(
             conf.GIT_API_URL + "/orgs/" + orgs_name + "/repos" + conf.SUFFIX
         )
-        header_link = orgs_repo_data.headers
+        header_link = orgs_data.headers
         orgs_repo_data = orgs_repo_data.json()
 
         orgs_repo_data = [
             {
-                "full_name": repos["full_name"],
-                "owner": repos["owner"]["login"],
-                "language": repos["language"],
-                "description": repos["description"],
-                "created_at": repos["created_at"],
-                "updated_at": repos["updated_at"],
-                "pushed_at": repos["pushed_at"]
-            } for repos in orgs_repo_data]
+                "full_name": repo["full_name"],
+                "owner": repo["owner"]["login"],
+                "language": repo["language"],
+                "description": repo["description"],
+                "created_at": repo["created_at"],
+                "updated_at": repo["updated_at"],
+                "pushed_at": repo["pushed_at"]
+            } for repo in orgs_repo_data]
+
+        if 'Link' in header_link.keys():
+            header_link = header_link["Link"]
+
+            while 'rel="next"' in header_link:
+                next_link = header_link.split('rel="next"')[0]
+                next_link = next_link[1:len(next_link) - 3]
+
+                next_orgs_repo_data = requests.get(next_link)
+                header_link = next_orgs_repo_data.headers["Link"]
+                next_orgs_repo_data = next_orgs_repo_data.json()
+                orgs_repo_data += [
+                    {
+                        "full_name": repo["full_name"],
+                        "owner": repo["owner"]["login"],
+                        "language": repo["language"],
+                        "description": repo["description"],
+                        "created_at": repo["created_at"],
+                        "updated_at": repo["updated_at"],
+                        "pushed_at": repo["pushed_at"]
+                    } for repo in next_orgs_repo_data]
     except Exception as e:
         print(e)
         orgs_repo_data = "Can't get user organization data."
