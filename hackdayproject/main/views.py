@@ -7,7 +7,6 @@ from django.shortcuts import render, redirect
 from hackdayproject.utils.github_api import *
 from hackdayproject.main.models import Profile
 from social_django.models import UserSocialAuth
-from natsort import natsorted, ns
 from hackdayproject.main.forms import *
 from hackdayproject.utils.util_function import get_user_all_repo
 
@@ -17,7 +16,6 @@ def home(request):
 
     if user.is_authenticated:
         username = user.username
-        orgs_data = get_user_orgs(username)
 
         if not hasattr(user, "profile"):
             user_data = get_user_data(username)
@@ -34,12 +32,8 @@ def home(request):
             )
             profile.save()
 
+        orgs_data = get_user_orgs(username)
         user_repo = get_user_all_repo(username, orgs_data)
-
-        # user_repo = natsorted(list(set(user_repo)),
-        #                       alg=ns.IGNORECASE, key=lambda x: x["full_name"])
-
-        print(user_repo)
     else:
         orgs_data = "AnonymousUser"
 
