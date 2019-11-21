@@ -1,3 +1,4 @@
+from hackdayproject.repo.models import Commit
 from django.conf import settings as conf
 from django.utils import timezone
 import requests
@@ -204,7 +205,7 @@ def get_user_repo(username):
     return user_repo
 
 
-def get_repo_commit(email, repo_full_name, check_modified=True):
+def get_repo_commit(username, repo_full_name, check_modified=True):
     '''수정된 Github 레파지토리 커밋 정보 반환
 
     Args:
@@ -228,13 +229,16 @@ def get_repo_commit(email, repo_full_name, check_modified=True):
             params={
                 "client_id": conf.SOCIAL_AUTH_GITHUB_KEY,
                 "client_secret": conf.SOCIAL_AUTH_GITHUB_SECRET,
-                'author': email
+                'author': username
             },
             headers=headers
         )
 
         header_link = user_repo_commit.headers
         status_code = user_repo_commit.status_code
+
+        print(header_link)
+        print(status_code)
 
         if status_code == 304:
             return "No Updated Repository."
@@ -271,3 +275,21 @@ def get_repo_commit(email, repo_full_name, check_modified=True):
         user_repo_commit = "Can't get " + repo_full_name + " commits"
 
     return user_repo_commit
+
+
+def update_user_commit(username, repo_full_name, checked_modified):
+    commits = get_repo_commit(
+        username,
+        repo_full_name,
+        check_modified=checked_modified
+    )
+
+    if not type(commits) is str:
+        for commit in commits:
+            new_commit = Commit(
+                repository=repo,
+                sha=commit["sha"],
+                email=commit["email"],
+                date=commit["date"]
+            )
+            new_commit.save()

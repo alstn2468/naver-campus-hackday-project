@@ -66,28 +66,12 @@
         <p>Please Login with Github</p>
     {% endif %}
     </div>
-    {% comment %} <div class="content">
-        {% if user.repository_set.all|length != 0 %}
-        <div class="content">
-        <ul>
-            {% for repo in user.repository_set.all %}	
-                <li>
-                    <p>Repository Full Name : {{ repo.full_name }}</p>
-                    <p>Repository Language : {{ repo.language }}</p>
-                    <p>Last Push : {{ repo.pushed_at }}</p>
-                    <p>My Commit Count : {{ repo.commit_set.all|length }}</p>
-                </li>
-            {% endfor %}
-        </ul>
-        {% else %}
-            <p>{{ user.username }} has no repository.</p>
-        {% endif %}
-    </div> {% endcomment %}
-
-    {% comment %} {% for key, val in commit_logs.items %}
-        <p>{{key}} : {{val}}</p>
-    {% endfor %} {% endcomment %}
-
+    <div class="user-profile border rounded shadow ">
+        <div class="current-streak border rounded shadow">
+            <p class="commit-record border-bottom border-3">Record</p>
+            <strong class="text-success">{{current_streak}}</strong>
+        </div>
+    </div>
 
 	{% if messages %}
 		<ul class="messages">
