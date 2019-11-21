@@ -1,4 +1,5 @@
-* {
+*,
+p {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -6,6 +7,16 @@
 
 ul {
     list-style-type: none;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+hr {
+    margin: 8px 0px 8px 0px;
 }
 
 .vertical-center {
@@ -17,4 +28,75 @@ ul {
 
 #main-container {
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 50px 30px 50px;
+}
+
+.left {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex: 2;
+}
+
+.profile-content {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    justify-content: cneter;
+}
+
+.profile-info-bottom {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.profile-img {
+    width: 70%;
+    height: auto;
+}
+
+.profile-info-lable {
+    display: flex;
+    flex: 1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profile-info-data {
+    display: flex;
+    flex: 2;
+    font-size: 12px;
+    align-items: center;
+}
+
+.profile-content-right {
+    flex: 1;
+    padding: 5px 20px 5px 20px;
+    width: 70%;
+}
+
+.org-img {
+    margin-right: 5px;
 }

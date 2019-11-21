@@ -4,55 +4,56 @@ from django.contrib.auth import views as auth_views
 from django.contrib.auth import update_session_auth_hash
 from django.contrib import messages
 from django.shortcuts import render, redirect
-from hackdayproject.utils.github_api import get_user_data, get_user_orgs
-from hackdayproject.main.models import Profile
-from hackdayproject.repo.models import Repository
 from social_django.models import UserSocialAuth
 from hackdayproject.main.forms import MyLoginForm, MyPasswordChangeForm
-from hackdayproject.utils.util_function import get_user_all_repo
+from hackdayproject.utils.util_function \
+    import convert_to_localtime, string_date_to_datetime
+from collections import OrderedDict
+from datetime import timedelta
 
 
 def home(request):
     user = request.user
 
+    commit_logs = {}
+
     if user.is_authenticated:
-        username = user.username
+        repos = user.repository_set.all()
 
-        if not hasattr(user, "profile"):
-            user_data = get_user_data(username)
-            profile = Profile(
-                user=user,
-                avatar_url=user_data["avatar_url"],
-                company=user_data["company"],
-                blog_url=user_data["blog_url"],
-                location=user_data["location"],
-                bio=user_data["bio"],
-                public_repos_count=user_data["public_repos_count"],
-                followers=user_data["followers"],
-                following=user_data["following"]
-            )
-            profile.save()
+        for repo in repos:
+            commits = repo.commit_set.all()
 
-        orgs_data = get_user_orgs(username)
-        user_repo = get_user_all_repo(username, orgs_data)
+            for commit in commits:
+                date = str(convert_to_localtime(commit.date))[:10]
 
-        for repo in user_repo:
-            repository = Repository(
-                user=user,
-                full_name=repo["full_name"],
-                owner=repo["owner"],
-                language=repo["language"],
-                description=repo["description"],
-                created_at=repo["created_at"],
-                updated_at=repo["updated_at"],
-                pushed_at=repo["pushed_at"]
-            )
-            repository.save()
-    else:
-        orgs_data = "AnonymousUser"
+                if date in commit_logs.keys():
+                    commit_logs[date] += 1
+
+                else:
+                    commit_logs[date] = 1
+
+        commit_logs = OrderedDict(
+            sorted(commit_logs.items(), key=lambda t: t[0]))
+
+        commit_logs = list(commit_logs.items())
+        before_commit = string_date_to_datetime(commit_logs[0][0])
+        current_streak = 0
+
+        for i in range(1, len(commit_logs)):
+            now_commit = string_date_to_datetime(commit_logs[i][0])
+            commit_day_diff = (now_commit - before_commit).days
+
+            if commit_day_diff == 1:
+                current_streak += 1
+            else:
+                print("before", before_commit, "now", now_commit)
+                current_streak = 0
+            before_commit = now_commit
+
+        print(current_streak)
 
     return render(request, 'main/home.html', {
-        "orgs_data": orgs_data
+        "commit_logs": commit_logs
     })
 
 

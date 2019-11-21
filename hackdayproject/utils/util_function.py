@@ -1,5 +1,8 @@
 from hackdayproject.utils.github_api \
-    import get_user_repo, get_user_orgs, get_orgs_repo
+    import get_user_repo, get_orgs_repo
+from datetime import datetime
+from django.utils import timezone
+import pytz
 
 
 def get_user_all_repo(username, orgs_data):
@@ -21,3 +24,14 @@ def get_user_all_repo(username, orgs_data):
                     user_repo.append(orgs_repo_temp.pop(0))
 
     return user_repo
+
+
+def string_date_to_datetime(date):
+    return datetime.strptime(date, "%Y-%m-%d")
+
+
+def convert_to_localtime(utctime):
+    fmt = '%Y-%m-%d %H:%M:%S'
+    utc = utctime.replace(tzinfo=pytz.UTC)
+    local_timezone = utc.astimezone(timezone.get_current_timezone())
+    return local_timezone.strftime(fmt)

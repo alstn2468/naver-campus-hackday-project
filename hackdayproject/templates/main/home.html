@@ -1,14 +1,92 @@
 {% extends 'base.html' %}
 {% load main_tags %}
 {% block content %}
-<div class="container" id="main-container">
-	<h2>Home</h2>
+<div class="container vetical-center" id="main-container">
+    <div class="user-profile border rounded shadow">
 	{% if user.is_authenticated %}
-		<p>Hello {{ user.username }}!</p>
-		<p>{{ user.extradata }}</p>
-	{% else %}
-		<p>Please Login with Github</p>
-	{% endif %}
+        {% if user.profile %}
+            <div class="left">
+                <div class="profile-content">
+                    <img src="{{ user.profile.avatar_url }}" alt="user profile avatar" class="profile-img"/>
+                    <div class="profile-info-bottom border rounded p-3 shadow">
+                        <div class="profile-info">
+                            <div class="profile-info-lable">COMPANY</div> 
+                            <div class="profile-info-data">{{ user.profile.company }}</div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info-lable">BLOG</div> 
+                            <div class="profile-info-data">{{ user.profile.blog_url }}</div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info-lable">Location</div> 
+                            <div class="profile-info-data">{{ user.profile.location }}</div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info-lable">Repository</div> 
+                            <div class="profile-info-data">{{ user.profile.public_repos_count }}</div>
+                        </div>
+                        <div class="profile-info">
+                            <div class="profile-info-lable">Followers</div> 
+                            <div class="profile-info-data">{{ user.profile.followers }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="profile-content">
+                    <div class="profile-content-right border rounded mb-3 shadow">
+                        <h3 class="pt-2">Bio</h3>
+                        <hr/>
+                        <div class="pb-2">
+                        {% for line in user.profile.bio|split_string %}
+                            <div class="profile-info-data">{{ line }}</div>
+                        {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="profile-content-right border rounded shadow">
+                        <h3 class="pt-2">Organization</h3>
+                        <hr/>
+                        <div class="pb-2">
+                        {% if user.organization_set.all|length != 0 %}
+                            {% for orgs in user.organization_set.all %}
+                                <div class="profile-info-data border rounded mb-2 p-1">
+                                    <img class="org-img" src="{{ orgs.avatar_url }}" alt="org_avatar" width="30" height="30" /> {{ orgs.orgs_name }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <p>Can't get user profile data.</p>
+        {% endif %}
+    {% else %}
+        <p>Please Login with Github</p>
+    {% endif %}
+    </div>
+    {% comment %} <div class="content">
+        {% if user.repository_set.all|length != 0 %}
+        <div class="content">
+        <ul>
+            {% for repo in user.repository_set.all %}	
+                <li>
+                    <p>Repository Full Name : {{ repo.full_name }}</p>
+                    <p>Repository Language : {{ repo.language }}</p>
+                    <p>Last Push : {{ repo.pushed_at }}</p>
+                    <p>My Commit Count : {{ repo.commit_set.all|length }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+            <p>{{ user.username }} has no repository.</p>
+        {% endif %}
+    </div> {% endcomment %}
+
+    {% comment %} {% for key, val in commit_logs.items %}
+        <p>{{key}} : {{val}}</p>
+    {% endfor %} {% endcomment %}
 
 
 	{% if messages %}
@@ -20,40 +98,6 @@
 				</li>
 			{% endfor %}
 		</ul>
-	{% endif %}
-
-	{% if user.profile %}
-        <img src="{{ user.profile.avatar_url }}" alt="user profile avatar" width="100" height="100"/>
-        <p>Company : {{ user.profile.company }}</p>
-        <p>Blog URL : {{ user.profile.blog_url }}</p>
-        <p>Location : {{ user.profile.location }}</p>
-        <p>Bio : {{ user.profile.bio }}</p>
-        <p>Public Repository Count : {{ user.profile.public_repos_count }}</p>
-        <p>Followers : {{ user.profile.followers }}</p>
-        <p>Created Time : {{ user.profile.created_at }}</p>
-        <p>Updated Time : {{ user.profile.updated_at }}</p>
-    {% else %}
-        <p>Can't get user profile data.</p>
-    {% endif %}
-
-    {% if orgs_data|get_type == "list" %}
-        <ul>
-        {% for orgs in orgs_data %}
-            <li><img src="{{ orgs.avatar_url }}" alt="org_avatar" width="30" height="30" /> {{ orgs.orgs_name }}</li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        <p>{{ orgs_data }}</p>
-    {% endif %}
-
-	{% if user.repository_set.all|length != 0 %}
-	<ul>
-		{% for repo in user.repository_set.all %}	
-			<li>{{ repo.full_name }} | {{ repo.language }} | {{ repo.pushed_at }}</li>
-		{% endfor %}
-	</ul>
-	{% else %}
-		<p>{{ user.username }} has no repository.</p>
 	{% endif %}
 </div>
 {% endblock %}

@@ -1,5 +1,8 @@
 from django.conf import settings as conf
+from django.utils import timezone
 import requests
+
+now = timezone.now()
 
 
 def get_user_data(username):
@@ -90,6 +93,7 @@ def get_orgs_repo(orgs_name):
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
+        now = timezone.now()
         orgs_repo_data = requests.get(
             conf.GIT_API_URL + "/orgs/" + orgs_name + "/repos" + conf.SUFFIX
         )
@@ -146,10 +150,14 @@ def get_user_repo(username):
     '''
     try:
         user_repo = requests.get(
-            conf.GIT_API_URL + '/users/' + username + '/repos' + conf.SUFFIX, {
+            conf.GIT_API_URL + '/users/' + username + '/repos',
+            params={
                 "type": "all",
-                "sort": "updated"
-            })
+                "sort": "updated",
+                "client_id": conf.SOCIAL_AUTH_GITHUB_KEY,
+                "client_secret": conf.SOCIAL_AUTH_GITHUB_SECRET
+            }
+        )
         header_link = user_repo.headers
         user_repo = user_repo.json()
         user_repo = [
@@ -196,25 +204,51 @@ def get_user_repo(username):
     return user_repo
 
 
-def get_repo_commit(repo_full_name):
-    '''Github 레파지토리 커밋 정보 반환
+def get_repo_commit(email, repo_full_name, check_modified=True):
+    '''수정된 Github 레파지토리 커밋 정보 반환
 
     Args:
         repo_full_name : user/repo 형식의 Str
+        check_modified : 오늘 기준 수정 여부 확인 Boolean
 
     Returns:
         값을 가져오는데 성공했을 경우 Dict in List
         값을 가져오는데 실패했을 경우 Str
     '''
     try:
+        headers = {}
+
+        if check_modified:
+            headers = {
+                "If-Modified-Since": now.strftime('%a, %d %b %Y 00:00:00 GMT')
+            }
+
         user_repo_commit = requests.get(
-            conf.GIT_API_URL + "/repos/" + repo_full_name + "/commits" + conf.SUFFIX
+            conf.GIT_API_URL + "/repos/" + repo_full_name + "/commits",
+            params={
+                "client_id": conf.SOCIAL_AUTH_GITHUB_KEY,
+                "client_secret": conf.SOCIAL_AUTH_GITHUB_SECRET,
+                'author': email
+            },
+            headers=headers
         )
-        # GET /repos/:user/:repo/:commits
-        # alstn2468.github.io기준 450개 모두 가져와 지는 것을 확인
+
         header_link = user_repo_commit.headers
+        status_code = user_repo_commit.status_code
+
+        if status_code == 304:
+            return "No Updated Repository."
+
+        if status_code == 409:
+            return "Empty Repository."
+
         user_repo_commit = user_repo_commit.json()
-        user_repo_commit = [c["commit"]["committer"] for c in user_repo_commit]
+        user_repo_commit = [
+            {
+                "sha": c["sha"],
+                "email": c["commit"]["committer"]["email"],
+                "date": c["commit"]["committer"]["date"]
+            } for c in user_repo_commit]
 
         if 'Link' in header_link.keys():
             header_link = header_link["Link"]
@@ -226,11 +260,14 @@ def get_repo_commit(repo_full_name):
                 next_user_repo_commit = requests.get(next_link)
                 header_link = next_user_repo_commit.headers["Link"]
                 next_user_repo_commit = next_user_repo_commit.json()
-
-                user_repo_commit += [c["commit"]["committer"]
-                                     for c in next_user_repo_commit]
+                user_repo_commit += [
+                    {
+                        "sha": c["sha"],
+                        "email": c["commit"]["committer"]["email"],
+                        "date": c["commit"]["committer"]["date"]
+                    } for c in next_user_repo_commit]
     except Exception as e:
         print(e)
-        user_repo_commit = "Can't get " + repo_full_name + " events"
+        user_repo_commit = "Can't get " + repo_full_name + " commits"
 
     return user_repo_commit
