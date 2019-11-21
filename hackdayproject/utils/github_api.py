@@ -93,7 +93,7 @@ def get_orgs_repo(orgs_name):
         orgs_repo_data = requests.get(
             conf.GIT_API_URL + "/orgs/" + orgs_name + "/repos" + conf.SUFFIX
         )
-        header_link = orgs_data.headers
+        header_link = orgs_repo_data.headers
         orgs_repo_data = orgs_repo_data.json()
 
         orgs_repo_data = [

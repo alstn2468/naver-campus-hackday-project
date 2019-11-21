@@ -5,7 +5,6 @@ from hackdayproject.utils.github_api \
 def get_user_all_repo(username, orgs_data):
     user_repo = get_user_repo(username)
 
-    orgs_repo_data = []
     for orgs in orgs_data:
         orgs_repo_temp = get_orgs_repo(orgs["orgs_name"])
         if type(orgs_repo_temp) is list:
