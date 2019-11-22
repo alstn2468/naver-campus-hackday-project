@@ -5,24 +5,32 @@ from django.contrib.auth import update_session_auth_hash
 from django.contrib import messages
 from django.shortcuts import render, redirect
 from social_django.models import UserSocialAuth
+from hackdayproject.main.models import Team
 from hackdayproject.main.forms import MyLoginForm, MyPasswordChangeForm
 from hackdayproject.utils.util_function import calculate_current_streak
 
 
 def home(request):
-    user = request.user
-
-    if user.is_authenticated:
-        repos = user.repository_set.all()
-        current_streak = calculate_current_streak(repos)
-
     return render(request, 'main/home.html', {
-        "current_streak": current_streak
     })
 
 
 def team(request):
     return render(request, "main/team.html")
+
+
+def search(request):
+    teams = Team.objects.all()
+    keyword = request.GET.get('keyword', '')
+
+    if keyword:
+        teams = teams.filter(name__contains=keyword)
+        print(teams)
+
+    return render(request, 'main/team.html', {
+        'teams': teams,
+        'keyword': keyword
+    })
 
 
 class MyLoginView(auth_views.LoginView):

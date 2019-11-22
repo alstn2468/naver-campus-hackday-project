@@ -28,12 +28,12 @@
                             No Organization
                         {% else %}
                             {% for org in user.organization_set.all %}
-                            <div class="row orgs-data">
+                            <a class="row orgs-data" href="https://github.com/{{ orgs.orgs_name }}" target="blank">
                                 <img src="{{ org.avatar_url }}"class="org-avatar"/>
                                 <div class="team-user-content-data no-bold">
                                     {{ org.orgs_name }}
                                 </div>
-                            </div>
+                            </a>
                             {% endfor %}
                         {% endif %}
                     </div>
@@ -42,7 +42,22 @@
             </div>
             {% endfor %}
         {% else %}
-            <p>Can't get user team data.</p>
+            <div class="team-info border rounded">
+                <h2 class="p-3">Can't get user team data.</h2>
+                <form action="{% url 'search' %}" method="GET" class="team-info border p-3 mb-3" autocomplete="off"> 
+                    <div class="form-group team-info column m-0">
+                        <input type="text" name="keyword" class="form-control w-50" id="keyword" placeholder="Search By Team Name">
+                        <button type="submit" class="btn btn-primary mt-2">SEARCH</button>
+                    </div>
+                </form>
+                {% if teams and request.path != "/team" %}
+                    {% for team in teams %}
+                        <p>{{ team.name }}</P>
+                    {% endfor %}
+                {% else %}
+                    <p>{{ keyword }} 검색결과 없음</p>
+                {% endif %}
+            </div>
         {% endif %}
     {% else %}
         <p>Please Login with Github</p>

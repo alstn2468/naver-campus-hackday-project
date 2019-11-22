@@ -1,7 +1,20 @@
 *,
-p {
+p,
+a {
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.repo-link:hover {
+    font-size: 14px;
+    color: black;
+    transition: font-size 0.2s;
     text-decoration: none;
 }
 
@@ -93,7 +106,7 @@ hr {
 .profile-content-right {
     flex: 1;
     padding: 5px 20px 5px 20px;
-    width: 70%;
+    width: 90%;
 }
 
 .org-img {

@@ -50,9 +50,9 @@
                         <div class="pb-2">
                         {% if user.organization_set.all|length != 0 %}
                             {% for orgs in user.organization_set.all %}
-                                <div class="profile-info-data border rounded mb-2 p-1">
+                                <a class="profile-info-data border rounded mb-2 p-1 repo-link" href="https://github.com/{{ orgs.orgs_name }}" target="blank">
                                     <img class="org-img" src="{{ orgs.avatar_url }}" alt="org_avatar" width="30" height="30" /> {{ orgs.orgs_name }}
-                                </div>
+                                </a>
                             {% endfor %}
                         {% endif %}
                         </div>
@@ -66,12 +66,14 @@
         <p>Please Login with Github</p>
     {% endif %}
     </div>
+    {% if user.is_authenticated %}
     <div class="user-profile border rounded shadow ">
         <div class="current-streak border rounded shadow">
             <p class="commit-record border-bottom border-3">Record</p>
-            <strong class="text-success">{{current_streak}}</strong>
+            <strong class="text-success">{{user.repository_set.all|get_user_current_streak}}</strong>
         </div>
     </div>
+    {% endif %}
 
 	{% if messages %}
 		<ul class="messages">
