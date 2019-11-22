@@ -7,7 +7,6 @@ from django.shortcuts import render, redirect
 from social_django.models import UserSocialAuth
 from hackdayproject.main.models import Team
 from hackdayproject.main.forms import MyLoginForm, MyPasswordChangeForm
-from hackdayproject.utils.util_function import calculate_current_streak
 
 
 def home(request):

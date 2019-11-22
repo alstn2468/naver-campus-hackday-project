@@ -277,10 +277,10 @@ def get_repo_commit(username, repo_full_name, check_modified=True):
     return user_repo_commit
 
 
-def update_user_commit(username, repo_full_name, checked_modified):
+def update_user_commit(username, repo, checked_modified):
     commits = get_repo_commit(
         username,
-        repo_full_name,
+        repo.full_name,
         check_modified=checked_modified
     )
 

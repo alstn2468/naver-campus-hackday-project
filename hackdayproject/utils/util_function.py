@@ -3,7 +3,6 @@ from hackdayproject.utils.github_api \
 from datetime import datetime
 from django.utils import timezone
 from collections import OrderedDict
-from datetime import timedelta
 import pytz
 
 
