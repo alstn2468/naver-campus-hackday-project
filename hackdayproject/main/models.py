@@ -5,11 +5,38 @@ from django.dispatch import receiver
 from hackdayproject.utils.github_api import get_user_data
 
 
+class Team(models.Model):
+    name = models.CharField(max_length=60, unique=True)
+    description = models.TextField()
+    profiles = models.ManyToManyField(
+        settings.AUTH_USER_MODEL,
+        through="Profile"
+    )
+
+    def __str__(self):
+        return self.name
+
+
+class ProfileManager(models.Manager):
+    user_for_related_fields = True
+
+    def add_profile(self, user, team):
+        pass
+
+    def remove_profile(self, user, team):
+        pass
+
+
 class Profile(models.Model):
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
         primary_key=True
+    )
+    team = models.ForeignKey(
+        Team,
+        on_delete=models.CASCADE,
+        null=True
     )
     avatar_url = models.TextField()
     company = models.CharField(max_length=50, blank=True)

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load main_tags %}
+{% block content %}
+<div class="container vetical-center" id="main-container">
+    <div class="team-profile border rounded shadow">
+	{% if user.is_authenticated %}
+        {% if user.team_set %}
+            {% for team in user.team_set.all %}
+            <div class="team-info border rounded">
+                <div class="team-name-container border">
+                    <h2 class="team-name">{{ team.name }}</h2>
+                </div>
+                {% for user in team.profiles.all %}
+                <div class="team-user-profile border rounded column">
+                    <div class="row border pb-2 team-user-content">
+                        <img src="{{ user.profile.avatar_url }}" alt="user profile avatar" class="team-user-profile-img"/>
+                        <div class="team-username">{{ user }}</div>
+                    </div>
+                    <div class="team-user-content column border">
+                        <h3 class="team-user-content-label">Current Streak</h3>
+                        <div class="text-success team-user-content-data">
+                            {{ user.repository_set.all|get_user_current_streak }}
+                        </div>
+                    </div>
+                    <div class="team-user-content column border">
+                        <h3 class="team-user-content-label">Organization</h3>
+                        {% if user.organization_set.all|length == 0%}
+                            No Organization
+                        {% else %}
+                            {% for org in user.organization_set.all %}
+                            <div class="row orgs-data">
+                                <img src="{{ org.avatar_url }}"class="org-avatar"/>
+                                <div class="team-user-content-data no-bold">
+                                    {{ org.orgs_name }}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        {% else %}
+            <p>Can't get user team data.</p>
+        {% endif %}
+    {% else %}
+        <p>Please Login with Github</p>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

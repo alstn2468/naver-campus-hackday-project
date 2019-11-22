@@ -21,6 +21,10 @@ def home(request):
     })
 
 
+def team(request):
+    return render(request, "main/team.html")
+
+
 class MyLoginView(auth_views.LoginView):
     form_class = MyLoginForm
 

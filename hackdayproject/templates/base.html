@@ -21,8 +21,8 @@
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Group
-                        {% if request.path == "/group" %}<span class="sr-only">(current)</span>{% endif %}
+                        <a class="nav-link" href="{% url 'team' %}">Team
+                        {% if request.path == "/team" %}<span class="sr-only">(current)</span>{% endif %}
                         </a>
                     </li>
                     <li class="nav-item active">
